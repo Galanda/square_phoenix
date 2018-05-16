@@ -16,7 +16,9 @@ defmodule SquarePhoenixWeb.Router do
   scope "/", SquarePhoenixWeb do
     pipe_through :browser # Use the default browser stack
 
-    get "/", PageController, :index
+  get "/", PageController, :index
+	get "/radiobuttons", RadiobuttonsController, :index
+	get "/chartist", ChartistController, :index
   end
 
   # Other scopes may use custom stacks.
