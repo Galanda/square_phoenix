@@ -11,23 +11,40 @@
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
   </head>
 
-  <body>
-    <div class="container">
-      <header class="header">
-        <nav role="navigation">
-          <ul class="nav nav-pills pull-right">
-            <li><a href="http://www.phoenixframework.org/docs">Get Started</a></li>
-          </ul>
-        </nav>
-        <span class="logo"></span>
-      </header>
+  <body class="viewport">
+  <div class="sq-phx-grid-main2">
+        <!--Navbar need logo-->
+        <div class="sq-phx-grid-navbar grey"> 
 
-      <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
-      <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
+        </div>
 
-      <main role="main">
-        <%= render @view_module, @view_template, assigns %>
-      </main>
+        <!--Sidebar for links-->
+        <div>
+            <div class="sq-phx-grid-sidebar">
+                <div class="flex-container-middle flex-direction lightgrey">
+                    <a href="#" class="air">Link 1</a>
+                    <a href="#" class="air">Link 2</a>
+
+                </div>
+                
+            </div>
+        </div>
+
+        <!--Middle area add content-->
+        <div class="sq-phx-grid-middle">
+            <div class="flex-container-middle flex-direction">
+                <%= render @view_module, @view_template, assigns %>
+                <!--Add something visually if possible-->
+                <!--add kode at the end-->
+
+            </div>
+
+        </div>
+        <!--Dropdown here-->
+        <div class="sq-phx-grid-dropsite black">
+
+        </div>
+    </div>
 
     </div> <!-- /container -->
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
