@@ -1,6 +1,6 @@
 <section style="max-width: 50em">
-        <h1 class="sq-bold">Shadows</h1>
-        <p class="air sq-text-large"> The shadow classes are found inside the shadow.css <br>
+        <h1>Shadows</h1>
+        <p class="air"> The shadow classes are found inside the shadow.css <br>
          <hr> 
             CSS to help you give shadow and hover on boxes. 
         </p>

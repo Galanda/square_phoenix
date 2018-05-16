@@ -1,6 +1,6 @@
 <section style="max-width: 50em">
-        <h1 class="sq-bold">Colors</h1>
-   <p class="air sq-text-large"> The color variables are found at the top, inside the theme-default.css. <br>
+        <h1>Colors</h1>
+   <p class="air"> The color variables are found at the top, inside the theme-default.css. <br>
     <hr>
        Short Info about color classes.
    </p>

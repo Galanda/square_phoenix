@@ -11,11 +11,11 @@ window.addEventListener("resize", function(){
   }
 })
 function showDropContent(){
-  var myTest = document.getElementsByClassName("sq-nav-dropdown-content")[0];
-  if(myTest.style.display == "" || myTest.style.display== "none"){
-  myTest.style.display = "block";
+  var dropDownContent = document.getElementsByClassName("sq-nav-dropdown-content")[0];
+  if(dropDownContent.style.display == "" || dropDownContent.style.display== "none"){
+  dropDownContent.style.display = "block";
 }
   else{
-    myTest.style.display ="none";
+    dropDownContent.style.display ="none";
   }
 }
