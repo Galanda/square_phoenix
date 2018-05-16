@@ -21,7 +21,7 @@ defmodule SquarePhoenixWeb.Router do
     get "/forms", FormsController, :index
     get "/table", TableController, :index
     get "/justifycontent", JustifyContentController, :index
-
+    get "/layouts", LayoutDocController, :index
 	get "/radiobuttons", RadiobuttonsController, :index
 	get "/chartist", ChartistController, :index
   end
