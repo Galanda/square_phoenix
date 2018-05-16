@@ -1,0 +1,35 @@
+<section>
+<h3>Collapsible</h3>
+<p>You can place different tags
+and content within a collapsible.
+<dl class="sq-dl sq-dl-divider">
+<!-- Collapsible Classes -->
+<dt>Collapsible class</dt>
+<!-- Regular Collapsible -->
+<button class="sq-collapsible">Collapsible</button>
+<div class="sq-collapsible-content">
+    <p>Text in "p" tag here</p>
+    <button>"button" tag here</button>
+    <div> Text "div" tag here</div>
+    <span>Text "span" tag here</span>
+</div> <br>
+<!-- Collapsible Colored -->
+<button Class="sq-collapsible" style="background-color:orangered">
+Collapsible colored</button>
+<div class="sq-collapsible-content" style="background-color:orange">
+<p>This collapsible is colored</p>
+</div> <br>
+<!-- Collapsible Code -->
+<pre class="code">
+<code>
+&ltbutton class="sq-collapsible"&gt &lt/button&gt
+&ltdiv class="sq-collapsible-content"&gt
+    &ltp Text in "p" tag here &gt&ltp
+    &ltbutton&gt"button" here&lt/button&gt
+    &ltdiv&gt Text in "div" tag here&ltdiv&gt
+    &ltspan&gt Text in "span" tag here&ltspan&gt
+&ltdiv&gt
+</code>
+</pre>
+</dl>
+</section>
