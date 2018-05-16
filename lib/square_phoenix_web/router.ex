@@ -17,6 +17,9 @@ defmodule SquarePhoenixWeb.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
+    get "/navdropdown", NavDropDownController, :index
+    get "/forms", FormsController, :index
+    get "/table", TableController, :index
   end
 
   # Other scopes may use custom stacks.
