@@ -1,0 +1,33 @@
+<!--Align Items Start-->
+    <section>
+        <h3>Align Items</h3>
+        <p class="air"> Short Info om Align Items</p>
+        <dl class="sq-dl sq-dl-divider">
+            <dt>Classes</dt>
+            <dd><strong>sq-align-center</strong> - Vertically position element to the center</dd>
+            <dd><strong>sq-align-start</strong> - Position to the top of the container</dd>
+            <dd><strong>sq-align-end</strong> - Position to the bottom of the container</dd>
+            <dd><strong>sq-align-stretch</strong> - Stretch the element to fit the container</dd>
+            <dd><strong>sq-align-baseline</strong> - Position to the Baseline (starting point) of the conteiner</dd>
+        </dl>
+        <div class="air">
+            <div class="sq-aligning-container sq-align-center">
+                <div class="sq-aligning-box"></div>
+                <div class="sq-aligning-box"></div>
+                <div class="sq-aligning-box"></div>
+            </div>
+        </div>
+        <pre class="code">
+            <code>
+                &ltdiv class="sq-align-center" &gt
+                    ...add content/text+++...
+                &lt/div&gt
+            </code>
+        </pre>
+        <div>
+            <a href="https://codepen.io/bjornum/pen/YLVodK?editors=1100">Interactive Demo</a>
+        </div>
+        <hr class="air"/>
+        <a href="#top"></a>
+    </section>
+    <!--Align Items End-->
