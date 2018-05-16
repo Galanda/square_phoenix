@@ -1,0 +1,24 @@
+<section style="max-width: 50em">
+<h1>Typography</h1>
+<p>Examples and info about Typography classes</p>
+<dl class="sq-dl sq-dl-divider">
+<!--  Font Classes  -->
+<dt>Font classes</dt>
+    <dd><strong>sq-bold</strong> - Makes your text bold.</dd>
+    <dd><strong>sq-sans-serif</strong> - Changes your font to sans-serif.</dd>
+    <dd><strong>sq-cursive</strong> - Makes your text cursive.</dd>
+    <dd><strong>sq-fantasy</strong> - Makes your text look thicker and bolder.</dd>
+<br>
+<!-- Text sizing -->
+<dt>Text Size classes</dt>
+    <dd><strong>sq-text-small</strong> - Makes your text look smaller.</dd>
+    <dd><strong>sq-text-large</strong> - Makes your text look bigger.</dd>
+<br>
+<!-- Colored text -->
+<dt>Colored Text</dt>
+    <dd class="sq-text-muted"><strong>sq-text-muted</strong> - Changes your text color to "Muted"</dd>
+    <dd class="sq-text-success"><strong>sq-text-success</strong> - Changes your text color to "Success"</dd>
+    <dd class="sq-text-warning"><strong>sq-text-warning</strong> - Changes your text color to "Warning!"</dd>
+    <dd class="sq-text-danger"><strong>sq-text-danger</strong> - Changes your text color to "Danger!"</dd>
+</dl>
+</section>
