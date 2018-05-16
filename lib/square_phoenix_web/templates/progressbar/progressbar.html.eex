@@ -1,5 +1,5 @@
-<section>
-<h3>ProgressBar</h3>
+<section style="max-width: 50em">
+<h1>ProgressBar</h1>
 <p class="air"> can be used to show the progress of something</p>
 <dl class="sq-dl sq-dl-divider">
     <dt><strong>Types</strong></dt>
