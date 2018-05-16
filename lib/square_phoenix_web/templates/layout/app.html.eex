@@ -14,7 +14,7 @@
   <body class="viewport">
   <div class="sq-phx-grid-main2">
         <!--Navbar need logo-->
-        <div class="sq-phx-grid-navbar grey"> 
+        <div class="sq-phx-grid-navbar grey">
 
         </div>
 
@@ -26,7 +26,7 @@
                     <a href="#" class="air">Link 2</a>
 
                 </div>
-                
+
             </div>
         </div>
 
