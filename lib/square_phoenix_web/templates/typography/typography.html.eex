@@ -1,5 +1,5 @@
-<section>
-<h3>Typography</h3>
+<section style="max-width: 50em">
+<h1>Typography</h1>
 <p>Examples and info about Typography classes</p>
 <dl class="sq-dl sq-dl-divider">
 <!--  Font Classes  -->
