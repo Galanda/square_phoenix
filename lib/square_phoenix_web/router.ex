@@ -22,8 +22,13 @@ defmodule SquarePhoenixWeb.Router do
     get "/collapsible", CollapsibleController, :index
     get "/modal", ModalController, :index
     get "/progressbar", ProgressbarController, :index
-
   end
+
+scope "/animation" SquarePhoenix do
+pipe_through :browser
+
+get "/borderanimation", BorderAnimation, :index
+end
 
   # Other scopes may use custom stacks.
   # scope "/api", SquarePhoenixWeb do
