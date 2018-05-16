@@ -1,0 +1,64 @@
+<section>
+<h3>Animation</h3>
+    <p>Text animation and icon animation. <br>
+    <strong>The animations</strong> can be copied. There is only the most used icon on the icon animation.</p>
+    <dl class="sq-dl sq-dl-divider">
+      <dt>Classes Text Animation</dt>
+      <dd><strong>.sq-animation-fade</strong> The element fades in.</dd>  <br>
+
+      <dd><strong>.sq-animation-shake</strong> The element shakes.</dd>    <br>
+
+      <dd><strong>.sq-animation-scale-up</strong></dd>
+      <dd><strong>.sq-animation-scale-down</strong> The element fades in and scale up or down.</dd>  <br>
+
+      <dd><strong>.sq-animation-slide-top</strong></dd>
+      <dd><strong>.sq-animation-slide-bottom</strong></dd>
+      <dd><strong>.sq-animation-slide-left</strong></dd>
+      <dd><strong>.sq-animation-slide-right</strong> The element fades and slides in from the top, bottom, left or right by its own height or width</dd>  <br>
+
+      <dd><strong>.sq-animation-slide-top-small</strong></dd>
+      <dd><strong>.sq-animation-slide-bottom-small</strong></dd>
+      <dd><strong>.sq-animation-slide-left-small</strong></dd>
+      <dd><strong>.sq-animation-slide-right-small</strong> The element fades and slides in from the top, bottom, left or right with a smalles distance which is specified by a fixed pixel value.</dd>  <br>
+
+      <dd><strong>.sq-animation-slide-top-medium</strong></dd>
+      <dd><strong>.sq-animation-slide-bottom-medium</strong></dd>
+      <dd><strong>.sq-animation-slide-left-medium</strong></dd>
+      <dd><strong>.sq-animation-slide-right-medium</strong> The element fades and slides in from the top, bottom, left or right with a medium distance which is specified by a fixed pixel value.</dd>  <br>
+    </dl>
+<link rel="stylesheet" href="../css/text_animation.css">
+
+    <div class="sq-animation-toggle">
+          <div class="sq-card sq-card-default sq-card-body sq-animation-fade">
+              <p class="sq-text-center">Fade</p>
+          </div>
+      </div>
+
+     <div class="sq-animation-toggle">
+        <div class="sq-card sq-card-default sq-card-body sq-animation-shake">
+          <p class="sq-text-center">Shake</p>
+        </div>
+      </div>
+    <a href="https://codepen.io/iMacMo/pen/vjZjqm">Interactive Demo for text animation</a>
+    <a href="#top"></a>
+<!--
+    <dt>Classes Icon Animation</dt>
+    <dd><strong>.sq-animation-fade</strong> The icon element fades in.</dd>
+
+    <dd><strong>.sq-animation-shake</strong> The icon element shakes.</dd>
+
+    <dd><strong>.sq-animation-rotate</strong> The icon element rotate.</dd>
+
+<link rel="stylesheet" href="../css/icon_animation.css">
+    <div class="sq-animation-toggle">
+    <div class="sq-animation-toggle sq-card sq-card-default sq-card-body .sq-animation-shake">
+      <svg id="i-star" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+    <path d="M16 2 L20 12 30 12 22 19 25 30 16 23 7 30 10 19 2 12 12 12 Z" />
+</svg>
+    </div>
+</div>
+
+    <a href="https://codepen.io/Kaiboii/pen/erydex">Interactive Demo for icon animation</a>
+    <a href="#top"></a>
+-->
+</section>
