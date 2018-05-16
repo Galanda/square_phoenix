@@ -1,5 +1,5 @@
 <section Style="max-width: 50%">
-<h1 id="slidingUnderline">Sliding Underlines</h1>
+<h1>Sliding Underlines</h1>
 <p class="air"> Animate an underline in different ways, underneat the text</p>
 <dl class="sq-dl sq-dl-divider">
 <!-- Classes -->
@@ -18,7 +18,7 @@
     <h3 class="sq-sliding-stayTilHover">Stay til Hover</h3>
 </div>
 <!-- Code -->
-<pre class="code1 sq-l-padding-15">
+<pre class="code">
 <code>
 &ltdiv class="sq-sliding-middleOut" &gt
     ..add content/text..
@@ -27,6 +27,6 @@
 </pre>
 <!-- Interactive Demo -->
 <div>
-    <a href="https://codepen.io/bjornum/pen/RyjQWW?editors=1100">Interactive Demo</a>
+<a href="https://codepen.io/bjornum/pen/RyjQWW?editors=1100">Interactive Demo</a>
 </div>
 </section>
