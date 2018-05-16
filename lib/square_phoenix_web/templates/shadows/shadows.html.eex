@@ -1,0 +1,25 @@
+<section style="max-width: 50em">
+        <h1 class="sq-bold">Shadows</h1>
+        <p class="air sq-text-large"> The shadow classes are found inside the shadow.css <br>
+         <hr> 
+            CSS to help you give shadow and hover on boxes. 
+        </p>
+        <dl class="sq-dl sq-dl-divider">
+            <dt>Classes</dt>
+            <dd class="sq-shadow-lt sq-margin-2"><strong>sq-shadow-lt</strong> - This is displaying the light class shadow with hover effect.</dd> 
+            <dd class="sq-shadow-lt:hover sq-margin-2"><strong>sq-shadow-lt:hover</strong> - This is the hover class, used on the example above.</dd>
+            <dd class="sq-shadow-sm sq-margin-2"><strong>sq-shadow-sm</strong> - This is displaying the small shadow class.</dd>
+            <dd class="sq-shadow-md sq-margin-2"><strong>sq-shadow-md</strong> - This is displaying the medium shadow class.</dd> 
+            <dd class="sq-shadow-lg sq-margin-2"><strong>sq-shadow-lg</strong> - This is displaying the large shadow class.</dd>
+            <dd class="sq-shadow-xl sq-margin-2"><strong>sq-shadow-xl</strong> - This is displaying the extra large shadow class.</dd>        
+            <pre class="code">
+                    <code>
+&ltdiv class="sq-shadow-lt" &gt
+    ...add content/text+++...
+&lt/div&gt
+                    </code>
+                </pre>  
+                <div>
+                        <a href="https://codepen.io/Sepuko/pen/gzXQXK">Interactive Demo</a>
+                    </div>                     
+</section>
