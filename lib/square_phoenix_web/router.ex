@@ -20,6 +20,7 @@ defmodule SquarePhoenixWeb.Router do
     get "/navdropdown", NavDropDownController, :index
     get "/forms", FormsController, :index
     get "/table", TableController, :index
+    get "/justifycontent", JustifyContentController, :index 
   end
 
   # Other scopes may use custom stacks.
