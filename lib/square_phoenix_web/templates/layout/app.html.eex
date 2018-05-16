@@ -22,10 +22,14 @@
         <div>
             <div class="sq-phx-grid-sidebar">
                 <div class="sq-flex-container-middle sq-flex-direction sq-background-lightgrey">
+					<a href="./alignitems" class="sq-air-x-1">Align items</a>
+					<a href="./borderanimation" class="sq-air-x-1">Border animation</a>
                     <a href="./chartist" class="sq-air-x-1">Chartist</a>
                     <a href="./collapsible" class="sq-air-x-1">Collapsible</a>
 					<a href="./colors" class="sq-air-x-1">Colors</a>
 					<a href="./forms" class="sq-air-x-1">Forms</a>
+					<a href="./justifycontent" class="sq-air-x-1">Justify content</a>
+					<a href="./layouts" class="sq-air-x-1">Layouts</a>
 					<a href="./modal" class="sq-air-x-1">Modal</a>
 					<a href="./navdropdown" class="sq-air-x-1">Navbar dropdown</a>
 					<a href="./progressbar" class="sq-air-x-1">Progress Bar</a>
