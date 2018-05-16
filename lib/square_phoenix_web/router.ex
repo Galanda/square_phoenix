@@ -36,6 +36,12 @@ defmodule SquarePhoenixWeb.Router do
   get"/alignitems", AlignitemsController, :index
   end
 
+scope "/animation", SquarePhoenixWeb do
+pipe_through :browser
+
+get "/borderanimation", BorderAnimationController, :index
+end
+
   # Other scopes may use custom stacks.
   # scope "/api", SquarePhoenixWeb do
   #   pipe_through :api
