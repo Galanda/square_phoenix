@@ -1,0 +1,78 @@
+<section>
+    <h3 id="Layout">Grid</h3>
+    <p class="air">
+        Base Layout system. contains a base 5 row and 9 column grid <br/>
+        the grid accepts panels that works as logical separator between content <br/>
+        the panels contain other cards with content. <br/>
+    </p>
+    <dl class="sq-dl sq-dl-divider">
+        <dt>Classes</dt>
+        <dd><strong>Sq-grid-main-desktop:</strong> - define a 5 row, 9 col grid</dd>
+        <dd><strong>Sq-grid-gap:</strong> - Adds a 1em gap betwen rows and columns </dd>
+        <dd><strong>Sq-grid-gap-row:</strong> - Adds a 1em gap betwen rows </dd>
+        <dd><strong>Sq-grid-gap-column:</strong> - Adds a 1em gap betwen columns</dd>
+    </dl>
+    <div class="air">
+        <div class="sq-grid-main-desktop sq-grid-gap" style="height:250px; width:450px;">
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+            <div style="border:solid 1px grey;"></div>
+        </div>
+    </div>
+    <div class="air">
+        <pre class="code" >
+            <code>
+&ltdiv class="sq-grid-main-desktop sq-grid-gap"&gt
+    ...Add panels here...
+&lt/div&gt
+            </code>
+        </pre>
+    </div>
+    <div>
+        <a href=" https://codepen.io/Rogstaa/pen/oqQovR">Interactve demo</a>
+    </div>
+    <hr class="air" />
+    <a href="#top"></a>
+    </section>
