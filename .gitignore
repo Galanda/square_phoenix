@@ -1,4 +1,6 @@
 # App artifacts
+.gitignore
+/.elixir_ls
 /_build
 /db
 /deps
@@ -28,5 +30,4 @@ npm-debug.log
 package-lock.json
 assets/package-lock.json
 assets/package.json
-assets/package-lock.json
-assets/package.json
+
