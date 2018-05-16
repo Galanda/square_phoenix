@@ -20,6 +20,8 @@ defmodule SquarePhoenixWeb.Router do
     get "/utility", UtilityController, :index
     get "/typography", TypographyController, :index
     get "/collapsible", CollapsibleController, :index
+    get "/modal", ModalController, :index
+    get "/progressbar", ProgressbarController, :index
 
   end
 
