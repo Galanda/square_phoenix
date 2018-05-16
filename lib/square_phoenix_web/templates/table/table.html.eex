@@ -1,0 +1,50 @@
+<section>
+      <h3 id="table">Tables</h3>
+      <p class="air"> Short Info about table</p>
+        <dl class="sq-dl sq-dl-divider">
+          <dt><strong>Classes</strong></dt>
+          <dd><strong>sq-table-striped</strong> - Table line becomes striped</dd>
+          <dd><strong>sq-table-border</strong> - Bordered table</dd>
+          <dd><strong>sq-table-hover</strong> - Hover over Table</dd>
+          <dd><strong>sq-table-misc</strong> - Misc items to the table. Add Misc icon.</dd>
+        </dl>
+        <!--table visual-->
+        <div class="sq-custom-Table-container sq-mt-2 sq-border-1 ">
+          <div class="sq-custom-navbar sq-mb-2 sq-border-1 sq-background-black"></div>
+            <table class="sq-border-collapse sq-table-striped sq-table-hover sq-table-misc-arrow-up sq-custom-table-position">
+              <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Country</th>
+              </tr>
+              <tr>
+                <td class="sq-table-row-padding-05">Name1</td>
+                <td>Age1</td>
+                <td>Country1</td>
+              </tr>
+              <tr>
+                <td class="test">Name2</td>
+                <td>Age2</td>
+                <td>Country2</td>
+              </tr>
+              <tr>
+                <td class="sq-table-row-padding-2">Name3</td>
+                <td>Age3</td>
+                <td>Country3</td>
+              </tr>
+            </table>
+          <div class="sq-custom-footer sq-border-1 sq-mt-2 sq-background-black"></div>
+        </div>
+        <!--code field-->
+        <pre class="code">
+            <code>
+        &ltdiv class="sq-table-striped sq-table-hover sq-table-border-bottom" &gt
+                    ...add content/text+++...
+        &lt/div&gt
+            </code>
+        </pre>
+        <!--link to codepen-->
+        <a href="https://codepen.io/bjornum/pen/deJJpe">Interactive Demo</a>
+        <hr class="air"/>
+        <a href ="#top"></a>
+    </section>
