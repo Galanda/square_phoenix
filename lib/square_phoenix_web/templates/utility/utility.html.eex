@@ -12,8 +12,8 @@
     <dd><strong>sq-mt-05 / sq-mb-05</strong>- Creates margin only on top (-mt) or bottom (-mb).</dd>
 <!-- Padding --><br>
     <dd><strong>sq-padding-05</strong> - Creates padding on all sides. (0.5em, 1em,2em,3em,4em & 5em)</dd>
-    <dd><strong>sq-l-padding-05 / sq-r-padding-05</strong> - Creates padding only on the left / right. <strong>(Solid only)</strong> </dd>
-    <dd><strong>sq-t-padding-05 / sq-b-padding-05</strong> - Creates padding only on top / bottom. <strong>(Solid only)</strong></dd>
+    <dd><strong>sq-l-padding-05 / sq-r-padding-05</strong> - Creates padding only on the left / right.</dd>
+    <dd><strong>sq-t-padding-05 / sq-b-padding-05</strong> - Creates padding only on top / bottom. </dd>
 <!-- Border --><br>
     <dd><strong>sq-border-1</strong> - Creates a border on all four sides. (1px, 3px, 5px)</dd>
     <dd><strong>sq-t-border / sq-b-border</strong> - Creates a border only on top / bottom. <strong>(Solid only)</strong> </dd>

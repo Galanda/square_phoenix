@@ -15,9 +15,9 @@ and content within a collapsible.
 </div> <br>
 <!-- Collapsible Colored -->
 <button Class="sq-collapsible" style="background-color:orangered">
-    Collapsible colored</button>
+Collapsible colored</button>
 <div class="sq-collapsible-content" style="background-color:orange">
-    <p>This collapsible is colored</p>
+<p>This collapsible is colored</p>
 </div> <br>
 <!-- Collapsible Code -->
 <pre class="code">
