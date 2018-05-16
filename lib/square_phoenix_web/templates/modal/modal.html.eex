@@ -1,0 +1,30 @@
+<section>
+<h3>Modal and Tabs</h3>
+<p class="air">Short Info about Modal and tabs</p>
+<dl class="sq-dl sq-dl-divider">
+<p><strong>Modal window and tabs</strong> <br>Add Overlay Window and tabs</p>
+<dl>
+<!-- Modal-->
+<dt> <strong>Classes</strong></dt>
+<!-- Classes  -->
+<dd><strong>sq-modal</strong> - Adds a hidden modal window</dd>
+<dd><strong>sq-modal-content</strong> - Content of the modal window</dd>
+<dd><strong>sq-close-button</strong> - Adds a close button to the modal window</dd>
+<dd><strong>sq-close-button:hover</strong> - Highlights close button on hover</dd>
+<dd><strong>sq-show-modal</strong> -  Shows the modal window</dd>
+<dd><strong>sq-tabs</strong> - Adds layout for the tabs</dd>
+<dd><strong>sq-tabs-label</strong> - Orders the tabs and styles the tab buttons</dd>
+<dd><strong>sq-tabs-input</strong> - Adds a radio class to the tabs and styles them</dd>
+</dl>
+<!-- Code -->
+<pre class="code">
+<code>
+&ltdiv class="sq-modal-content"/"sq-tabs" &gt
+    ...add content/text+++...
+&lt/div&gt
+</code>
+</pre>
+<!-- Demo -->
+<div>
+    <a href="https://codepen.io/tom_ra/pen/LmOyJG">Interactive Demo</a>
+</div>

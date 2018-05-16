@@ -1,0 +1,46 @@
+<section>
+<h3>ProgressBar</h3>
+<p class="air"> can be used to show the progress of something</p>
+<dl class="sq-dl sq-dl-divider">
+    <dt><strong>Types</strong></dt>
+    <dd><strong>CSS only ProgressBar</strong> - Created with css only</dd>
+    <dd><strong>Dynamic ProgressBar</strong> - Created with css and Javascript</dd>
+</dl>
+<!--Progressbar Visual-->
+<!--Basic Progress bar with css-->
+<div>
+<p><strong>Progress Bar </strong> <br>With CSS only </p>
+<!-- Grey 20%Progbar -->
+<div class="sq-progressBar-width sq-border-1">
+<div class="sq-background-grey sq-progressBar-20">20%</div>
+</div>   
+<!-- Red 40% ProgBar -->
+<div class="sq-progressBar-width sq-border-1 sq-mt-05">
+<div class="sq-background-red sq-progressBar-40 sq-text-center">40%</div>
+</div> 
+<!-- Blue 70% ProgBar -->
+<div class="sq-progressBar-width sq-border-1 sq-mt-05">
+<div class="sq-background-lightblue sq-progressBar-70 sq-padding-05">70%</div>
+</div>
+<!-- Green 50% Progbar -->
+<div class="sq-progressBar-width sq-border-1 sq-mt-05">
+<div class="sq-background-green sq-progressBar-50 sq-text-center sq-padding-1">50%</div>
+</div>
+<!-- Css ProgBar END -->
+</div>
+<!--End of Progress Bar with CSS-->        
+<!--Dynamic Progress Bar-->
+<div class="sq-progressBar-container">
+<p><strong>Dynamic Progress Bar </strong> <br>With CSS and Javascript</p>
+<!-- Dynamic ProgBar with CSS & JS -->
+<div class="sq-background-lightgrey sq-progressBar-width sq-border-1 sq-mt-05">
+<div id="sqBar" class="sq-background-lightblue sq-progressBar-0 sq-text-center">1%</div>
+</div>
+<!-- Button -->
+<p id="sqlabelOutside">1%</p>
+<button onclick="sqMove()">Click Me</button>
+</div>
+<!--end of Dynamic Progress Bar-->
+<a href="https://codepen.io/bjornum/pen/bMYKva?editors=1100">Interactive Demo</a>
+<hr class="air"/>
+</section>
