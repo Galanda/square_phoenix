@@ -1,6 +1,6 @@
 <section>
-<h3 class="sq-bold sq-text-large">Typography</h3>
-<p class="sq-text-large">Examples and info about Typography classes</p>
+<h3>Typography</h3>
+<p>Examples and info about Typography classes</p>
 <dl class="sq-dl sq-dl-divider">
 <!--  Font Classes  -->
 <dt>Font classes</dt>
@@ -20,6 +20,5 @@
     <dd class="sq-text-success"><strong>sq-text-success</strong> - Changes your text color to "Success"</dd>
     <dd class="sq-text-warning"><strong>sq-text-warning</strong> - Changes your text color to "Warning!"</dd>
     <dd class="sq-text-danger"><strong>sq-text-danger</strong> - Changes your text color to "Danger!"</dd>
-<br>
 </dl>
 </section>

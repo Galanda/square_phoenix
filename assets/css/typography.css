@@ -61,7 +61,7 @@ p {font-size: 0.9rem;}
 
 /* DropCaps */
 
-.sq-firstcharacter {
+/* .sq-firstcharacter {
     color: #903;
     float: left;
     font-family: Georgia;
@@ -80,7 +80,7 @@ p:first-child:first-letter {
     padding-top:0px;
     padding-right: 0px;
     padding-left: 3px;
-  }
+  } */
 
 /* Text align */
 

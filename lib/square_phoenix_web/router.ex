@@ -17,8 +17,10 @@ defmodule SquarePhoenixWeb.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
-    get "/Utility", UtilityController, :utility
-    get "/Typography", TypographyController, :typography
+    get "/utility", UtilityController, :index
+    get "/typography", TypographyController, :index
+    get "/collapsible", CollapsibleController, :index
+
   end
 
   # Other scopes may use custom stacks.
