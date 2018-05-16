@@ -1,0 +1,40 @@
+<section>
+		<!--Radio Start-->
+		<h1> Radio Buttons</h1>
+			<p>Basic radio buttons and checkboxes</p>
+			<dd><strong>.sq-form input</strong> - Main class for Radiobuttons and Checkboxes</dd>
+			<dd><strong>Radiobuttons in a single block has to share name</strong></dd>
+			    <!--radio buttons visual-->
+<p>Selection List</p>
+	<select>
+		<option value="">Test1</option>
+		<option value="">Test2</option>
+		<option value="">Test3</option>
+	</select>
+	<p>Checkbox</p>
+	<form class="sq-form">
+	 	<input type="checkbox" disabled="disabled" name="ord" value="">Disabled checkbox
+		<input type="checkbox" name="ord" value="true">Checkable box
+		<input type="checkbox" checked="checked" name="ord" value="">Checked when page loads
+	</form>
+<p>Radiobuttons</p>
+<form class="sq-form" action="index.html" method="post">
+		<input type="radio" checked="checked" name="test" value="test">Checked when page loads
+		<input type="radio"  name="test" value="">Test
+		<input type="radio" disabled="disabled" name="test" value="">Disabled button
+</form>
+		<!--code field-->
+		<pre class="code">
+	      <code>
+	       &ltform class="sq-form"&gt
+		   input type="checkbox/radio" name="test" &gt
+	            ...add content/text+++...
+	       &lt/form&gt
+	      </code>
+	    </pre>
+		<!--link to codepen-->
+		<a href="https://codepen.io/MrJohns1/pen/VxyvJX">Interactive Demo</a>
+		<hr class="air"/>
+		<a href ="#top"></a>
+		<!-- Radiobuttons and Checkboxes End-->
+	</section>
