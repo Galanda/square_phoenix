@@ -20,7 +20,6 @@ defmodule SquarePhoenixWeb.Router do
 
     get "/justifycontent", JustifyContentController, :index
     get "/layouts", LayoutDocController, :index
-  get "/", PageController, :index
   get "/utility", UtilityController, :index
   get "/typography", TypographyController, :index
   get "/collapsible", CollapsibleController, :index
