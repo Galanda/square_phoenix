@@ -35,7 +35,10 @@ defmodule SquarePhoenixWeb.Router do
   get "/createuser", CreateuserController, :index
   get"/alignitems", AlignitemsController, :index
   get "/borderanimation", BorderAnimationController, :index
+  get "/animation", AnimationController, :index
   end
+
+
 
 
   # Other scopes may use custom stacks.
