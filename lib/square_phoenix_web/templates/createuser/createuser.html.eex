@@ -1,0 +1,54 @@
+<section style="max-width: 50em">
+      
+<form id=regForm" action="">
+                <h1>Register:</h1>
+                
+                <!-- One "sq-tab" for each step in the form: -->
+                <div class="sq-cu-tab">Name:
+                  <p><input style=display:block; placeholder="First name..." oninput="this.className = ''"></p>
+                  <p><input style=display:block;  placeholder="Last name..." oninput="this.className = ''"></p>
+                </div>
+                
+                <div class="sq-cu-tab">Contact Info:
+                  <p><input placeholder="E-mail..." oninput="this.className = ''"></p>
+                  <p><input placeholder="Phone..." oninput="this.className = ''"></p>
+                </div>
+                
+                <div class="sq-cu-tab">Birthday:
+                  <p><input placeholder="dd" oninput="this.className = ''"></p>
+                                                                   
+                  <p><input placeholder="mm" oninput="this.className = ''"></p>
+                  <p><input placeholder="yyyy" oninput="this.className = ''"></p>
+                </div>
+                
+                <div class="sq-cu-tab">Login Info:
+                  <p><input placeholder="Username..." oninput="this.className = ''"></p>
+                  <p> <label for="psw">Password</label>
+    <input placeholder="Password..." type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required></p>
+                                                                                                 <div id="message">
+  <h3>Password must contain the following:</h3>
+  <p id="letter" class="sq-cu-invalid">A <b>lowercase</b> letter</p>
+  <p id="capital" class="sq-cu-invalid">A <b>capital (uppercase)</b> letter</p>
+  <p id="number" class="sq-cu-invalid">A <b>number</b></p>
+  <p id="length" class="sq-cu-invalid">Minimum <b>8 characters</b></p>
+</div>
+                </div>
+                                                                     
+                
+                <div style="overflow:auto;">
+                  <div style="float:right;">
+                    <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+                    <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+                  </div>
+                </div>
+                
+                <!-- Circles which indicates the steps of the form: -->
+                <div style="text-align:center;margin-top:40px;">
+                  <span class="sq-cu-step"></span>
+                  <span class="sq-cu-step"></span>
+                  <span class="sq-cu-step"></span>
+                  <span class="sq-cu-step"></span>
+                </div>
+                
+                </form>
+    

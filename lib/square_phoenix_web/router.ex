@@ -33,7 +33,9 @@ defmodule SquarePhoenixWeb.Router do
   get "/table", TableController, :index
 	get "/radiobuttons", RadiobuttonsController, :index
   get "/chartist", ChartistController, :index
+  get "/createuser", CreateuserController, :index
   get"/alignitems", AlignitemsController, :index
+
   end
 
 scope "/animation", SquarePhoenixWeb do
