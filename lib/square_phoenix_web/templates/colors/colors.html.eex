@@ -1,0 +1,70 @@
+<section style="max-width: 50em">
+        <h1>Colors</h1>
+   <p class="air"> The color variables are found at the top, inside the theme-default.css. <br>
+    <hr>
+       Short Info about color classes.
+   </p>
+   <dl class="sq-dl sq-dl-divider">
+       <dt>Classes</dt>
+       <dd class="sq-text-base"><strong>sq-text-base</strong> - This variable is using the base text color.</dd>
+       <dd class="sq-text-white"><strong>sq-text-white</strong> - This variable is using the white text color. Added black background color since text color is white.</dd>
+       <dd class="sq-primary"><strong>sq-primary</strong> - This variable is using white text and the primary background color.</dd>
+       <dd class="sq-primary-highlight"><strong>sq-primary-highlight</strong> - This is using the primary highlight variable, ment for highlighting  objects.</dd>
+       <dd class="sq-secondary"><strong>sq-secondary</strong> - This variable is using white text and the secondary background color.</dd>
+       <dd class="sq-secondary-transparancy"><strong>sq-secondary-transparancy</strong> - This is using the secondary-transparancy variable ment for modal windows.</dd>
+       <dd class="sq-secondary-highlight"><strong>sq-secondary-highlight</strong> - This is using the secondary highlight variable, ment for highlighting  objects.</dd>
+       <dd class="sq-success"><strong>sq-success</strong> - This variable is using white text and the success background color.</dd>
+       <dd class="sq-success-highlight"><strong>sq-success-highlight</strong> - This is using the success highlight variable, ment for highlighting  objects.</dd>
+       <dd class="sq-info"><strong>sq-info</strong> - this variable is using white text and the info background color.</dd>
+       <dd class="sq-info-highlight"><strong>sq-info-highlight</strong> - This is using the info highlight variable, ment for highlighting objects.</dd>
+       <dd class="sq-warning"><strong>sq-warning</strong> - This variable is using white text and the warning background color.</dd>
+       <dd class="sq-warning-highlight"><strong>sq-warning-highlight</strong> - This is using the warning highlight variable, ment for highlighting  objects.</dd>
+       <dd class="sq-danger"><strong>sq-danger</strong> - This variable is using white text and the danger background color.</dd>
+       <dd class="sq-danger-highlight"><strong>sq-danger-highlight</strong> - This is using the danger highlight variable, ment for highlighting objects.</dd>
+       <dd class="sq-background"><strong>sq-background</strong> - This variable is using the background color.</dd>
+       <dd class="sq-background-secondary"><strong>sq-background-secondary</strong> - This variable is using the secondary background color.</dd>
+       <dd class="sq-black"><strong>sq-black</strong> - This variable is using the black text color.</dd>
+       <dd class="sq-grey"><strong>sq-grey</strong> - This variable is using the grey text color.</dd>
+       <dd class="sq-white"><strong>sq-white</strong> - This variable is using the white background color.</dd>
+       <dd class="sq-muted"><strong>sq-muted</strong> - This variable is using the muted text color.</dd>
+       <dd class="sq-muted-highlight"><strong>sq-muted-highlight</strong> - This is using the muted highlight variable, ment for highlighting muted objects.</dd>
+       <dd class="sq-divider"><strongs>sq-divider</strong> - This is using the divider variable, ment for changing color on for example an hr tag.</dd>
+   </dl>
+<hr>
+   <p> <h3>Here are the variable names if you want to change or make new color themes.</h3>
+    The color variables are at the top, inside the theme-default.css. <br> 
+    --text-base: #333; <br>
+    --text-white: #fafafa; <br>
+    --primary: #0088ce; <br>
+    --primary-highlight: #39a5dc; <br>
+    --secondary: #393f44; <br>
+    --secondary-transparancy: #393f44dd; <br>
+    --secondary-highlight: #72767b; <br>
+    --background: #fafafa; <br>
+    --background-secondary: #ededed; <br>
+    --success: #3f9c35; <br>
+    --success-highlight: #9ecf99; <br>
+    --info: #007a87; <br>
+    --info-highlight: #7dbdc3; <br>
+    --warning: #ec7a08; <br>
+    --warning-highlight: #f39d3c; <br>
+    --danger: #b30000; <br>
+    --danger-highlight: #cc0000; <br>
+    --black: #0c0c0c; <br>
+    --grey: #777; <br>
+    --white: #fafafa; <br>
+    --muted: #999; <br>
+    --muted-highlight: #666; <br>
+    --divider: #d8d8d8; <br>
+   </p>
+   <pre class="code">
+        <code>
+ &ltdiv class="sq-primary" &gt
+    ...add content/text+++...
+ &lt/div&gt
+        </code>
+    </pre>
+    <div>
+            <a href="https://codepen.io/Sepuko/pen/xjrzKw?editors=1100#0">Interactive Demo</a>
+        </div>
+    </section>
