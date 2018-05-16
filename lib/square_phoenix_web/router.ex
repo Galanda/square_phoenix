@@ -20,7 +20,6 @@ defmodule SquarePhoenixWeb.Router do
 
     get "/justifycontent", JustifyContentController, :index
     get "/layouts", LayoutDocController, :index
-  get "/", PageController, :index
   get "/utility", UtilityController, :index
   get "/typography", TypographyController, :index
   get "/collapsible", CollapsibleController, :index
@@ -33,14 +32,14 @@ defmodule SquarePhoenixWeb.Router do
   get "/table", TableController, :index
 	get "/radiobuttons", RadiobuttonsController, :index
   get "/chartist", ChartistController, :index
+  get "/createuser", CreateuserController, :index
   get"/alignitems", AlignitemsController, :index
+  get "/borderanimation", BorderAnimationController, :index
+  get "/animation", AnimationController, :index
   end
 
-scope "/animation", SquarePhoenixWeb do
-pipe_through :browser
-get "/animation", AnimationController, :index
-get "/borderanimation", BorderAnimationController, :index
-end
+
+
 
   # Other scopes may use custom stacks.
   # scope "/api", SquarePhoenixWeb do
