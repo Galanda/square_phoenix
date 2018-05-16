@@ -12,16 +12,16 @@
   </head>
 
   <body class="viewport">
-  <div class="sq-phx-grid-main2">
+  <div class="sq-phx-grid-main">
         <!--Navbar need logo-->
-        <div class="sq-phx-grid-navbar grey"> 
+        <div class="sq-phx-grid-navbar sq-background-grey"> 
 
         </div>
 
         <!--Sidebar for links-->
         <div>
             <div class="sq-phx-grid-sidebar">
-                <div class="flex-container-middle flex-direction lightgrey">
+                <div class="sq-flex-container-middle sq-flex-direction sq-background-lightgrey">
                     <a href="#" class="air">Link 1</a>
                     <a href="#" class="air">Link 2</a>
 
@@ -32,7 +32,7 @@
 
         <!--Middle area add content-->
         <div class="sq-phx-grid-middle">
-            <div class="flex-container-middle flex-direction">
+            <div class="sq-flex-container-middle sq-flex-direction">
                 <%= render @view_module, @view_template, assigns %>
                 <!--Add something visually if possible-->
                 <!--add kode at the end-->
