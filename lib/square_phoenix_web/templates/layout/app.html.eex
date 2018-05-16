@@ -12,18 +12,29 @@
   </head>
 
   <body class="viewport">
-  <div class="sq-phx-grid-main2">
+  <div class="sq-phx-grid-main">
         <!--Navbar need logo-->
-        <div class="sq-phx-grid-navbar grey">
+        <div class="sq-phx-grid-navbar sq-background-grey">
 
         </div>
 
         <!--Sidebar for links-->
         <div>
             <div class="sq-phx-grid-sidebar">
-                <div class="flex-container-middle flex-direction lightgrey">
-                    <a href="#" class="air">Link 1</a>
-                    <a href="#" class="air">Link 2</a>
+                <div class="sq-flex-container-middle sq-flex-direction sq-background-lightgrey">
+                    <a href="./chartist" class="sq-air-x-1">Chartist</a>
+                    <a href="./collapsible" class="sq-air-x-1">Collapsible</a>
+					<a href="./colors" class="sq-air-x-1">Colors</a>
+					<a href="./forms" class="sq-air-x-1">Forms</a>
+					<a href="./modal" class="sq-air-x-1">Modal</a>
+					<a href="./navdropdown" class="sq-air-x-1">Navbar dropdown</a>
+					<a href="./progressbar" class="sq-air-x-1">Progress Bar</a>
+					<a href="./radiobuttons" class="sq-air-x-1">Radiobuttons</a>
+					<a href="./shadows" class="sq-air-x-1">Shadows</a>
+					<a href="./table" class="sq-air-x-1">Table</a>
+					<a href="./typography" class="sq-air-x-1">Typography</a>
+					<a href="./utility" class="sq-air-x-1">Utility</a>
+
 
                 </div>
 
@@ -32,7 +43,7 @@
 
         <!--Middle area add content-->
         <div class="sq-phx-grid-middle">
-            <div class="flex-container-middle flex-direction">
+            <div class="sq-flex-container-middle sq-flex-direction sq-air-x-1">
                 <%= render @view_module, @view_template, assigns %>
                 <!--Add something visually if possible-->
                 <!--add kode at the end-->

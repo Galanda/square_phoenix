@@ -16,6 +16,10 @@ defmodule SquarePhoenixWeb.Router do
   scope "/", SquarePhoenixWeb do
     pipe_through :browser # Use the default browser stack
 
+    get "/", PageController, :index
+  
+    get "/justifycontent", JustifyContentController, :index
+    get "/layouts", LayoutDocController, :index
   get "/", PageController, :index
   get "/utility", UtilityController, :index
   get "/typography", TypographyController, :index
@@ -30,6 +34,8 @@ defmodule SquarePhoenixWeb.Router do
 	get "/radiobuttons", RadiobuttonsController, :index
   get "/chartist", ChartistController, :index
   get "/createuser", CreateuserController, :index
+  get"/alignitems", AlignitemsController, :index
+
   end
 
 scope "/animation", SquarePhoenixWeb do
