@@ -1,56 +1,57 @@
 <section>
       <h3 id="nav-dropdown">Nav dropdown menu</h3>
-        <p>
-          Code used to transform the links on a navbar into a icon with a dropdown menu when the window is made smaller.<br>
-          To use as dropdown menu without the resize function simply use the classes <strong>NOT</strong> includeing <ins>window.addEventListener</ins> in JS and sq-nav-dropdown <ins>display:none;</ins>.<br>
-          To edit the width and height sizeing when the dropdown menu appears simply go to window.addEventListener function and change window.innerWidght and window.innerHeight numbers.
-        </p>
+      <p>
+        Dropdown menu is added to the first link.<br>
+        When clicking the "Link 1" button you will toggle the dropdown menu.<br>
+        Under you see an example on how i uses the css classes and set it up in the html.
+      </p>
         <dl class="sq-dl sq-dl-divider" >
           <dt>Classes</dt>
-          <dd><strong>.sq-nav-dropbtn</strong>The button with onclick to toggle hide/show dropdown menu links.</dd>
-          <dd><strong>.sq-nav-dropdown</strong>The main dropdown container containing the button and dropdwon content div.</dd>
-          <dd><strong>.sq-nav-dropdown-content</strong>Containing the actual links for the dropdown menu.</dd>
-          <dd><strong>.sq-nav-dropdown ul</strong>CSS only class, removeing list style,margin and adding paddin 0.3rem.</dd>
-          <dd><strong>.sq-nav-dropdown-content a:hover</strong>CSS only class, adding background color when hovering links within the container.</dd>
-          <dd><strong>.sq-nav-dropbtn:hover</strong>CSS only class, adding background color when hovering the toggle button.</dd>
-          <dd><strong>function showDropContent()</strong>Function which toggle show/hide on the dropdown menu content.</dd>
-          <dd><strong>window.addEventListener("resize",function())</strong>Function which swap out the navbar links to a dropdown menu when the window is made smaller.</dd>
+          <dd><strong>.sq-nav-dropdown</strong> The main dropdown container containing the button and dropdwon content div.</dd>
+          <dd><strong>.sq-nav-dropdown-content</strong> Containing the actual links for the dropdown menu.</dd>
+          <dd><strong>.sq-nav-dropdown-content ul</strong> Removeing list style,margin and adding paddin 0.3rem.</dd>
+          <dd><strong>.sq-nav-drop-down-content li</strong> Changeing color, adding margin and adding mouseover effect on the li items</dd>
+          <dd><strong>.sq-show-dropdown-content</strong> Class used with javascript to toggle showing or hideing the dropdown content.</dd>
+          <dd><strong>.sq-nav-dropdown-content a:hover</strong> CSS only class, adding background color when hovering links within the container.</dd>
+          <dd><strong>function showDropContent()</strong> Function which toggle show/hide on the dropdown menu content.</dd>
         </dl>
         <div>
-          <div id="navbarLinks">
-            <a href="">Link 1</a>
-            <a href="">Link 2</a>
-            <a href="">Link 3</a>
-          </div>
-          <div id="navbarDropLinks" class="sq-nav-dropdown">
-            <svg onclick="showDropContent()"
-              class="sq-nav-dropbtn sq-secondary" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-              <path d="M4 8 L28 8 M4 16 L28 16 M4 24 L28 24" />
-            </svg>
-            <div class="sq-nav-dropdown-content sq-background-secondary">
+          <div class="sq-nav-dropdown">
+            <button onclick="showDropContent()">Link 1</button>
+            <div class="sq-nav-dropdown-content">
               <ul>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 2</a></li>
-                <li><a href="#">Link 3</a></li>
+                <li><a>Link 1</a></li>
+                <li><a>Link 2</a></li>
+                <li><a>Link 3</a></li>
+                <li><a>Link 4</a></li>
+                <li><a>Link 5</a></li>
               </ul>
             </div>
           </div>
+          <button>Link 2</button>
+          <button>Link 3</button>
+          <button>Link 4</button>
+          <button>Link 5</button>
         </div>
         <pre class="code">
           <code>
-            &ltdiv id="navbarDropLinks" class="sq-nav-dropdown"&gt
-              &ltsvg onclick="showDropContent()"
-              class="sq-nav-dropbtn sq-secondary" viewBox="0 0 32 32" width="32" height="32" fill="none"
-              stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"&gt
-              &ltpath d="M4 8 L28 8 M4 16 L28 16 M4 24 L28 24"/&gt
-              &lt/svg&gt
-              &ltdiv class="sq-nav-dropdown-content sq-background-secondary"&gt
-                &ltul&gt
-                  &ltli&gt&lta href="#"&gtLink 1&lt/a&gt&lt/li&gt
-                  &ltli&gt&lta href="#"&gtLink 2&lt/a&gt&lt/li&gt
-                  &ltli&gt&lta href="#"&gtLink 3&lt/a&gt&lt/li&gt
-                &lt/ul&gt
+            &ltdiv&gt
+              &ltdiv class="sq-nav-dropdown"&gt
+                &ltbutton onclick="showDropContent()"&gtLink 1&lt/button&gt
+                &ltdiv class="sq-nav-dropdown-content"&gt
+                  &ltul&gt
+                    &ltli&gt&lta&gtLink 1&lt/a&gt&lt/li&gt
+                    &ltli&gt&lta&gtLink 2&lt/a&gt&lt/li&gt
+                    &ltli&gt&lta&gtLink 3&lt/a&gt&lt/li&gt
+                    &ltli&gt&lta&gtLink 4&lt/a&gt&lt/li&gt
+                    &ltli&gt&lta&gtLink 5&lt/a&gt&lt/li&gt
+                  &lt/ul&gt
+                &lt/div&gt
               &lt/div&gt
+              &ltbutton&gtLink 2&lt/button&gt
+              &ltbutton&gtLink 3&lt/button&gt
+              &ltbutton&gtLink 4&lt/button&gt
+              &ltbutton&gtLink 5&lt/button&gt
             &lt/div&gt
           </code>
         </pre>
