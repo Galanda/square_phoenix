@@ -17,12 +17,12 @@
                 <div class="sq-aligning-box"></div>
             </div>
         </div>
-        <pre class="code">
-            <code>
+        <pre class="sq-code">
+            <sq-code>
                 &ltdiv class="sq-justify-center sq-justify-around" &gt
                     ...add content/text+++...
                 &lt/div&gt
-            </code>
+            </sq-code>
         </pre>
         <div>
             <a href="https://codepen.io/bjornum/pen/KRmeVO?editors=1100">Interactive Demo</a>
