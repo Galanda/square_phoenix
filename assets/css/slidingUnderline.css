@@ -1,35 +1,28 @@
-/*How far out the examples will go on the page*/
-.sq-underline-width{
-    max-width:60%;
-    width:50%;
-  }
-  
-  /*Classes*/
-  
-/*Sliding Underline from Top to Bottom Start*/
+/* classes for animation below text */
+
+/*Sliding-topBot Start*/
+/*Display*/
 .sq-sliding-topBot {
     text-decoration: none;
     display: inline-block;
     border-bottom: 0px solid transparent;  
-    width: 210px;
+    width: 12.5em;
     transition: 0.5s ease;
-    height: 25px;
+    height: 1.5em;
 }
+/*When Hovering over text*/
+.sq-sliding-topBot:hover {border-bottom: 3px solid blue;}
+/*Sliding-topBot End*/
   
-.sq-sliding-topBot:hover {
-    border-bottom: 3px solid blue;
-}
-/*Sliding underline top to Bottom End*/
-  
-  
-/*Sliding Underline Right to Left Start*/
+/*Sliding-rightToLeft Start*/
+/*Display*/
 .sq-sliding-rightToLeft {
     display: inline-block;
     position: relative;
     padding-bottom: 3px;
-    margin-right:100px;
+    margin-right:6em;
 }
-  
+/*Once leaving text(after)*/  
 .sq-sliding-rightToLeft:after {
     content: '';
     display: block;
@@ -41,19 +34,17 @@
     background: transparent;
     transition: width .5s ease, background-color .5s ease;
 }
-  
+/*When Hovering over*/
 .sq-sliding-rightToLeft:hover:after {
     width: 100%;
     background: blue;
 }
-/*Sliding underline right to left end*/
+/*Sliding-rightToLeft end*/
   
-  
-/*Sliding underline Left to Right Start*/
-.sq-sliding-leftToRight {
-    display: inline-block;
-}
-    
+/*Sliding-leftToRight Start*/
+/*Display*/
+.sq-sliding-leftToRight {display: inline-block;}
+/*Once leaving Text(after)*/    
 .sq-sliding-leftToRight:after {
     content: '';
     display: block;
@@ -62,22 +53,22 @@
     background: transparent;
     transition: width .5s ease, background-color .5s ease;
 }
-  
+/*When hovering over*/  
 .sq-sliding-leftToRight:hover:after {
     width: 100%;
     background: blue;
 }
-/*Sliding Underline Left to Right End*/
+/*Sliding-leftToRight End*/
   
-  
-  /*Sliding Underline Middle Out Start*/
+/*Sliding-middleOut Start*/
+/*Display*/
 .sq-sliding-middleOut {
     display: inline-block;
     position: relative;
     padding-bottom: 3px;
-    margin-right:100px;
+    margin-right:4.4em;
 }
-  
+/*Once leaving text(after)*/  
 .sq-sliding-middleOut:after {
     content: '';
     display: block;
@@ -87,22 +78,22 @@
     background: transparent;
     transition: width .5s ease, background-color .5s ease;
 }
-  
+/*Hovering Over*/  
 .sq-sliding-middleOut:hover:after {
     width: 100%;
     background: blue;
 }
-/*Sliding Underline Middle Out End*/
+/*Sliding-middleOut End*/
   
-  
-/*Sliding Underline keep going right Start*/
+/*Sliding-inAndOnward Start*/
+/*Display*/
 .sq-sliding-inAndOnward {
     display: inline-block;
     position: relative;
     padding-bottom: 3px;
-    margin-right:100px;
+    margin-right:4.5em;
 }
-  
+/*Before hovering over text*/  
 .sq-sliding-inAndOnward:before {
     content: '';
     display: block;
@@ -113,7 +104,7 @@
     width: 0;
     transition: width 0s ease, background .5s ease;
 }
-  
+/*Once leaving text (After)*/ 
 .sq-sliding-inAndOnward:after {
     content: '';
     display: block;
@@ -125,28 +116,28 @@
     background: blue;
     transition: width .5s ease;
 }
-  
+/*Once hovering over text*/  
 .sq-sliding-inAndOnward:hover:before {
     width: 100%;
     background: blue;
     transition: width .5s ease;
 }
-  
+/*Once leavign text*/  
 .sq-sliding-inAndOnward:hover:after {
     width: 100%;
     background: transparent;
     transition: all 0s ease;
 }
-/*Sliding Underline keep going right End*/
+/*Sliding-inAndOnward End*/
   
-  
-/*Sliding Underline Stay until hovers over Start*/
+/*Sliding-stayTilHover Start*/
+/*Display*/
 .sq-sliding-stayTilHover {
     display: inline-block;
     position: relative;
     padding-bottom: 3px;
 }
-  
+/*Before hovering over text*/ 
 .sq-sliding-stayTilHover:before {
     content: '';
     display: block;
@@ -157,7 +148,7 @@
     width: 100%;
     transition: width 0s ease;
 }
-  
+/*once leaving text (after)*/  
 .sq-sliding-stayTilHover:after {
     content: '';
     display: block;
@@ -169,20 +160,17 @@
     background: blue;
     transition: width .5s ease;
 }
-  
+/*Before Hovering over text*/ 
 .sq-sliding-stayTilHover:hover:before {
     width: 0%;
     background: blue;
     transition: width .5s ease;
 }
-  
+/*When Hovering over text*/ 
 .sq-sliding-stayTilHover:hover:after {
     width: 0%;
     background: transparent;
     transition: width 0s ease;
 }
-  /*Sliding Underline Stay until hover over End*/
+  /*Sliding-stayTilHover End*/
   
-.sq-l-padding-15{
-    padding-left:15em;
-}

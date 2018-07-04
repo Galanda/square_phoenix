@@ -1,5 +1,6 @@
 <section Style="max-width: 50rem">
 <h1>Sliding Underlines</h1>
+<p><strong>CSS found in slidingUnderline.css </strong></p>
 <p class="air"> Animate an underline in different ways, underneat the text</p>
 <dl class="sq-dl sq-dl-divider">
 <!-- Classes -->
@@ -12,10 +13,14 @@
 <dd><strong>sq-sliding-stayTilHover</strong> - Underline stay til Hovering Over</dd>
 </dl>
 <!--Sliding underline visual-->
-<div class="sq-underline-width">
-    <h3 class="sq-sliding-middleOut">Sliding Middle Out</h3>
-    <h3 class="sq-sliding-inAndOnward">In and Onwards</h3>
-    <h3 class="sq-sliding-stayTilHover">Stay til Hover</h3>
+<div>
+  <h3 class="sq-sliding-topBot">Top to Bot</h3>
+  <h3 class="sq-sliding-rightToLeft">Right to Left</h3>
+  <h3 class="sq-sliding-leftToRight">Left to Right</h3>
+  <br>
+  <h3 class="sq-sliding-middleOut">Sliding Middle Out</h3>
+  <h3 class="sq-sliding-inAndOnward">In and Onwards</h3>
+  <h3 class="sq-sliding-stayTilHover">Stay til Hover</h3>   
 </div>
 <!-- Code -->
 <pre class="code">
