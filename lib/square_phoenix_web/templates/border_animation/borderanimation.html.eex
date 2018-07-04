@@ -1,5 +1,6 @@
 <section Style="max-width: 50rem">
 <h1>Sliding Underlines</h1>
+<p><strong>CSS found in slidingUnderline.css </strong></p>
 <p class="air"> Animate an underline in different ways, underneat the text</p>
 <dl class="sq-dl sq-dl-divider">
 <!-- Classes -->
