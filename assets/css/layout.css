@@ -125,6 +125,9 @@
 .sq-flex-direction{
   flex-direction:column;
 }
+.sq-flex-erction{
+  flex-direction:row;
+}
 
 /* Align items*/
 .sq-align-center{align-items: center;}

@@ -1,0 +1,71 @@
+<section>
+      <h3>Nav dropdown menu</h3>
+      <p>
+        Dropdown menu is added to the first link.<br>
+        When clicking the "Link 1" button you will toggle the dropdown menu.<br>
+        Under you see an example on how i uses the css classes and set it up in the html.
+      </p>
+        <dl class="sq-dl sq-dl-divider" >
+          <dt>Classes</dt>
+          <dd><strong>.sq-nav-dropdown</strong> The main dropdown container containing the button and dropdwon content div.</dd>
+        </dl>
+        <div class="sq-container">
+            <div class="sq-tabs">
+                <input name="tabs" type="radio" id="tab-1"  checked="checked" class="input">
+                <label for="tab-1" class="label">Personalia</label>
+                <div class="sq-tab">
+						<h1>Tab1</h1>
+                </div>
+            </div>
+            <div class="sq-tabs ">
+               <input name="tabs" type="radio" id="tab-2" class="input">
+                <label for="tab-2" class="label">Address</label>
+                <div class="sq-tab">
+						<h1>Tab2</h1>
+                </div>
+            </div>
+            <div class="sq-tabs">
+               <input name="tabs" type="radio" id="tab-3" class="input">
+                <label for="tab-3" class="label">Email/Password</label>
+                <div class="sq-tab">
+						   <h1>Tab3</h1>
+                </div>
+            </div>
+        </div>
+        <pre class="code">
+          <code>
+            &ltdiv&gt
+
+            &lt/div&gt
+          </code>
+        </pre>
+      <div>
+        <a href="https://codepen.io/paalk93/pen/odpJOQ">Interactive Demo</a>
+      </div>
+        <hr>
+        <a href="/">home</a>
+      </section>
+
+
+
+	  <div class="vu-tabs">
+
+	  	<input name="tabs" type="radio" id="tab-1" checked="checked" class="input"/>
+	  	<label for="tab-1">More moo</label>
+	  	<div class="vu-tab">
+	  		<h1>mooo?</h1>
+	  	</div>
+
+	  	<input name="tabs" type="radio" id="tab-2" class="input"/>
+	  	<label for="tab-2" class="label">Moo</label>
+	  	<div class="vu-tab">
+	  		<h1>mooooooo</h1>
+	  	</div>
+
+	  	<input name="tabs" type="radio" id="tab-3" class="input"/>
+	  	<label for="tab-3" class="label">Zomg moo</label>
+	  	<div class="vu-tab">
+	  		<h1>moooooooooooooo</h1>
+	  	</div>
+
+	  </div>
