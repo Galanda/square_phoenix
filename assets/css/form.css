@@ -34,6 +34,16 @@
     font-style: italic;
     font-size: 80%;
 }
+
+.sq-btn{
+    height:100%;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    background-color:var(--background);
+    padding:0;
+    margin:0;
+}
 .sq-form select:focus,
 .sq-form textarea:focus,
 .sq-form input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]):focus{
