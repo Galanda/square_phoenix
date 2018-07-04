@@ -111,9 +111,6 @@
 }
 .sq-flex-direction-col{flex-direction:column;}
 .sq-flex-direction-row{flex-direction: row;}
-.sq-flex-direction{
-  flex-direction:column;
-}
 
 /* Align items*/
 .sq-align-center{align-items: center;}
