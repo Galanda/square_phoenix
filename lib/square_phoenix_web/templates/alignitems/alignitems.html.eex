@@ -1,7 +1,7 @@
 <!--Align Items Start-->
     <section>
         <h3>Align Items</h3>
-        <p class="air"> Short Info om Align Items</p>
+        <p class="air"> Short Info about Align Items, these classes can be found in Layout.css</p>
         <dl class="sq-dl sq-dl-divider">
             <dt>Classes</dt>
             <dd><strong>sq-align-center</strong> - Vertically position element to the center</dd>
