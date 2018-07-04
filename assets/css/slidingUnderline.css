@@ -1,6 +1,7 @@
 /* classes for animation below text */
 
-/*Sliding Underline from Top to Bottom Start*/
+/*Sliding-topBot Start*/
+/*Display*/
 .sq-sliding-topBot {
     text-decoration: none;
     display: inline-block;
@@ -9,13 +10,12 @@
     transition: 0.5s ease;
     height: 1.5em;
 }
-/*When Hovering over*/
-.sq-sliding-topBot:hover {
-    border-bottom: 3px solid blue;
-}
-/*Sliding underline top to Bottom End*/
+/*When Hovering over text*/
+.sq-sliding-topBot:hover {border-bottom: 3px solid blue;}
+/*Sliding-topBot End*/
   
-/*Sliding Underline Right to Left Start*/
+/*Sliding-rightToLeft Start*/
+/*Display*/
 .sq-sliding-rightToLeft {
     display: inline-block;
     position: relative;
@@ -39,13 +39,11 @@
     width: 100%;
     background: blue;
 }
-/*Sliding underline right to left end*/
+/*Sliding-rightToLeft end*/
   
-  
-/*Sliding underline Left to Right Start*/
-.sq-sliding-leftToRight {
-    display: inline-block;
-}
+/*Sliding-leftToRight Start*/
+/*Display*/
+.sq-sliding-leftToRight {display: inline-block;}
 /*Once leaving Text(after)*/    
 .sq-sliding-leftToRight:after {
     content: '';
@@ -60,10 +58,10 @@
     width: 100%;
     background: blue;
 }
-/*Sliding Underline Left to Right End*/
+/*Sliding-leftToRight End*/
   
-  
-/*Sliding Underline Middle Out Start*/
+/*Sliding-middleOut Start*/
+/*Display*/
 .sq-sliding-middleOut {
     display: inline-block;
     position: relative;
@@ -85,10 +83,10 @@
     width: 100%;
     background: blue;
 }
-/*Sliding Underline Middle Out End*/
+/*Sliding-middleOut End*/
   
-  
-/*Sliding Underline keep going right Start*/
+/*Sliding-inAndOnward Start*/
+/*Display*/
 .sq-sliding-inAndOnward {
     display: inline-block;
     position: relative;
@@ -130,10 +128,10 @@
     background: transparent;
     transition: all 0s ease;
 }
-/*Sliding Underline keep going right End*/
+/*Sliding-inAndOnward End*/
   
-  
-/*Sliding Underline Stay until hovers over Start*/
+/*Sliding-stayTilHover Start*/
+/*Display*/
 .sq-sliding-stayTilHover {
     display: inline-block;
     position: relative;
@@ -174,5 +172,5 @@
     background: transparent;
     transition: width 0s ease;
 }
-  /*Sliding Underline Stay until hover over End*/
+  /*Sliding-stayTilHover End*/
   
