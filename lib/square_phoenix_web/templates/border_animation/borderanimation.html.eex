@@ -14,13 +14,13 @@
 </dl>
 <!--Sliding underline visual-->
 <div>
-    <h3 class="sq-sliding-topBot">Top to Bot</h3>
-    <h3 class="sq-sliding-rightToLeft">Right to Left</h3>
-    <h3 class="sq-sliding-leftToRight">Left to Right</h3>
-    <br>
-    <h3 class="sq-sliding-middleOut">Sliding Middle Out</h3>
-    <h3 class="sq-sliding-inAndOnward">In and Onwards</h3>
-    <h3 class="sq-sliding-stayTilHover">Stay til Hover</h3>   
+  <h3 class="sq-sliding-topBot">Top to Bot</h3>
+  <h3 class="sq-sliding-rightToLeft">Right to Left</h3>
+  <h3 class="sq-sliding-leftToRight">Left to Right</h3>
+  <br>
+  <h3 class="sq-sliding-middleOut">Sliding Middle Out</h3>
+  <h3 class="sq-sliding-inAndOnward">In and Onwards</h3>
+  <h3 class="sq-sliding-stayTilHover">Stay til Hover</h3>   
 </div>
 <!-- Code -->
 <pre class="code">
