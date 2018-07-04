@@ -62,12 +62,12 @@
         </div>
     </div>
     <div class="air">
-        <pre class="code" >
-            <code>
+        <pre class="sq-code" >
+            <sq-code>
 &ltdiv class="sq-grid-main-desktop sq-grid-gap"&gt
     ...Add panels here...
 &lt/div&gt
-            </code>
+            </sq-code>
         </pre>
     </div>
     <div>

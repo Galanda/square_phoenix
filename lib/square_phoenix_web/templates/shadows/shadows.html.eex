@@ -1,6 +1,6 @@
 <section style="max-width: 50em">
         <h1>Shadows</h1>
-        <p class="air"> The shadow classes are found inside the shadow.css <br>
+        <p class="air"> The shadow classes are found inside the theme-default.css <br>
          <hr> 
             CSS to help you give shadow and hover on boxes. 
         </p>
@@ -12,12 +12,12 @@
             <dd class="sq-shadow-md sq-air-20"><strong>sq-shadow-md</strong> - This is displaying the medium shadow class.</dd> 
             <dd class="sq-shadow-lg sq-air-20"><strong>sq-shadow-lg</strong> - This is displaying the large shadow class.</dd>
             <dd class="sq-shadow-xl sq-air-20"><strong>sq-shadow-xl</strong> - This is displaying the extra large shadow class.</dd>        
-            <pre class="code">
-                    <code>
+            <pre class="sq-code">
+                    <sq-code>
 &ltdiv class="sq-shadow-lt" &gt
     ...add content/text+++...
 &lt/div&gt
-                    </code>
+                    </sq-code>
                 </pre>  
                 <div>
                         <a href="https://codepen.io/Sepuko/pen/gzXQXK">Interactive Demo</a>

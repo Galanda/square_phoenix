@@ -20,8 +20,8 @@ Collapsible colored</button>
 <p>This collapsible is colored</p>
 </div> <br>
 <!-- Collapsible Code -->
-<pre class="code">
-<code>
+<pre class="sq-code">
+<sq-code>
 &ltbutton class="sq-collapsible"&gt &lt/button&gt
 &ltdiv class="sq-collapsible-content"&gt
     &ltp Text in "p" tag here &gt&ltp
@@ -29,7 +29,7 @@ Collapsible colored</button>
     &ltdiv&gt Text in "div" tag here&ltdiv&gt
     &ltspan&gt Text in "span" tag here&ltspan&gt
 &ltdiv&gt
-</code>
+</sq-code>
 </pre>
 </dl>
 </section>

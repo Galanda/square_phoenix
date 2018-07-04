@@ -23,14 +23,14 @@
 		<input type="radio"  name="test" value="">Test
 		<input type="radio" disabled="disabled" name="test" value="">Disabled button
 </form>
-		<!--code field-->
-		<pre class="code">
-	      <code>
+		<!--sq-code field-->
+		<pre class="sq-code">
+	      <sq-code>
 	       &ltform class="sq-form"&gt
 		   input type="checkbox/radio" name="test" &gt
 	            ...add content/text+++...
 	       &lt/form&gt
-	      </code>
+	      </sq-code>
 	    </pre>
 		<!--link to codepen-->
 		<a href="https://codepen.io/MrJohns1/pen/VxyvJX">Interactive Demo</a>

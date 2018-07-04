@@ -28,8 +28,8 @@
 			</fieldset>
 		</form>
 	</div>
-	<pre class="code1 air">
-		<code>
+	<pre class="sq-code air">
+		<sq-code>
 &ltform class="sq-form" action="index.html" method="post" type=text&gt
 	&ltfieldset>
 		&ltlegend&gtPersonalia&lt/legend&gt
@@ -41,7 +41,7 @@
 		&ltinput type="date" name="" value=""&gt
 	&lt/fieldset&gt
 &lt/form&gt
-		</code>
+		</sq-code>
 	</pre>
 	<p>Example: login form elements</p>
 	<form class="sq-form" action="index.html" method="post">
@@ -51,8 +51,8 @@
 			<input type="password" name="" value="" placeholder="Password">
 		</fieldset>
 	</form>
-	<pre class="code1 air">
-		<code>
+	<pre class="sq-code air">
+		<sq-code>
 &ltform class="sq-form" action="index.html" method="post"&gt
 	&ltfieldset&gt
 		&ltlegend&gtLogin&lt/legend&gt
@@ -60,7 +60,7 @@
 		&ltinput type="password" name="" value="" placeholder="Password"&gt
 	&lt/fieldset&gt
 &lt/form&gt
-		</code>
+		</sq-code>
 	</pre>
 	<hr class="air" />
 	<a href="#top"></a>
