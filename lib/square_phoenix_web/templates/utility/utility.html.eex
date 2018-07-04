@@ -1,33 +1,43 @@
 <section style="max-width: 50em">
 <H1>Utility</H1>
-<h6>Air, border, size</h6>
 <p>Utility classes for designating sizes, borders and margins <br>
+	All classes can be found in utility.css
 	All classes come in groups with distinct size steps. in either em, px, or %.<br>
 	<strong>Important for em units only, all sizes given are in steps of 0.5em, where 05 = 0.5 em, and 20 = 2em, for anything else it's given as a direct value</strong>
 </p>
 <dl class="sq-dl sq-dl-divider">
 <!--Classes -->
-<dt>Classes</dt>
+<dt>Air classes</dt>
 <!-- Air / Margin -->
-<dd><strong>sq-air-(xx)</strong>- Margin all sides. </dd>
+	<dd><strong>sq-air-(xx)</strong>- Margin all sides. </dd>
     <dd><strong>sq-air-y-(xx)</strong> - Margin top & bottom</dd>
     <dd><strong>sq-air-x-(xx)</strong> - Margin left & right.</dd>
     <dd><strong>sq-air-t-(xx)</strong>- Margin, top only.</dd>
 	<dd><strong>sq-air-b-(xx)</strong>- Margin, bottom only.</dd>
 	<dd><strong>sq-air-l-(xx)</strong>- Margin, left side only.</dd>
 	<dd><strong>sq-air-r-(xx)</strong>- Margin, right side only.</dd>
+	<br>
+<dt>Size classes</dt>
+	<!--   height / width -->
+	<dd> <strong>sq-width-(xx)p</strong> - Width, in percent</dd>
+	<dd> <strong>sq-height-(xx)p</strong> - height, in percent</dd>
+	<dd> <strong>sq-width-(xx)em</strong> - width, in em</dd>
+	<dd> <strong>sq-height-(xx)em</strong> - height, in em</dd>
+	<br>
+<dt>Padding classes</dt>
+	<!--   height / width -->
+	<dd> <strong>sq-l-padding-(xx)</strong> - padding left, in em</dd>
+	<dd> <strong>sq-r-padding-(xx)</strong> - padding right, in percent</dd>
+	<dd> <strong>sq-t-padding-(xx)</strong> - padding top, in em</dd>
+	<dd> <strong>sq-b-padding-(xx)</strong> - padding bottom, in em</dd>
+	<br>
 
-<!--   height / width -->
-<dd> <strong>sq-width-(xx)p</strong> - Width, in percent</dd>
-<dd> <strong>sq-height-(xx)p</strong> - height, in percent</dd>
-<dd> <strong>sq-width-(xx)em</strong> - width, in em</dd>
-<dd> <strong>sq-height-(xx)em</strong> - height, in em</dd>
 
-<!-- Border --><br>
-    <dd><strong>sq-border-1</strong> - Creates a border on all four sides. (1px, 3px, 5px)</dd>
-    <dd><strong>sq-t-border / sq-b-border</strong> - Creates a border only on top / bottom. <strong>(Solid only)</strong> </dd>
-    <dd><strong>sq-l-border / sq-r-border</strong> - Creates a border only on the left / right. <strong>(solid only)</strong></dd>
-    <dd><strong>sq-dashed (Border styles)</strong> - Changes the borderstyle (solid is default), (sq-dashed, dotted, groove, none, inherit or ridge)</dd>
+<!-- Border -->
+<dt>Border classes</dt>
+    <dd><strong>sq-(y)border-(xx)</strong> - Creates a border with the given style from the border style class. defaults to solid. replace (y) with the direction, or skip it for all sides at once. Replace (xx) with the border width given in px, available sizes are 1px, 3px, 5px.</dd>
+
+    <dd><strong>sq-(border style)</strong> - Changes the borderstyle (solid is default), to your chosen style, replace (border style) with the respective style</dd>
     </dl>
 <a href="https://codepen.io/Pauble95/pen/YLxxBq">Interactive Demo</a>
 </section>
