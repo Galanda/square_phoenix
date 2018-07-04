@@ -17,10 +17,9 @@ defmodule SquarePhoenixWeb.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
-  
+
     get "/justifycontent", JustifyContentController, :index
     get "/layouts", LayoutDocController, :index
-  get "/", PageController, :index
   get "/utility", UtilityController, :index
   get "/typography", TypographyController, :index
   get "/collapsible", CollapsibleController, :index
@@ -32,8 +31,15 @@ defmodule SquarePhoenixWeb.Router do
   get "/forms", FormsController, :index
   get "/table", TableController, :index
 	get "/radiobuttons", RadiobuttonsController, :index
-	get "/chartist", ChartistController, :index
+  get "/chartist", ChartistController, :index
+  get "/createuser", CreateuserController, :index
+  get"/alignitems", AlignitemsController, :index
+  get "/borderanimation", BorderAnimationController, :index
+  get "/animation", AnimationController, :index
   end
+
+
+
 
   # Other scopes may use custom stacks.
   # scope "/api", SquarePhoenixWeb do
