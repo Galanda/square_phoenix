@@ -12,6 +12,7 @@
 	<dd><strong>Form</strong> - Root element for forms,insert .sq-form to add form scope.</dd>
 	<dd><strong>Label</strong> - Label tag used to label each input field.</dd>
 	<dd><strong>Input</strong> - Input fields used to gather user information.</dd>
+	<dd><strong>Sq-btn</strong> - This is just a simple button, you have to find the elements you need to style the button yourself in the Library. for example padding,fontsize,color and so on... </dd>
 	</dl>
 	<p>Example: name and date form elements</p>
 	<div>
