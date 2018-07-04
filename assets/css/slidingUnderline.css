@@ -1,20 +1,13 @@
 /* classes for animation below text */
 
-/*How far out the examples will go on the page*/
-.sq-underline-width{
-    width:100%;
-}
-  
-  /*Classes*/
-  
 /*Sliding Underline from Top to Bottom Start*/
 .sq-sliding-topBot {
     text-decoration: none;
     display: inline-block;
     border-bottom: 0px solid transparent;  
-    width: 210px;
+    width: 12.5em;
     transition: 0.5s ease;
-    height: 25px;
+    height: 1.5em;
 }
   
 .sq-sliding-topBot:hover {
@@ -28,7 +21,7 @@
     display: inline-block;
     position: relative;
     padding-bottom: 3px;
-    margin-right:100px;
+    margin-right:6em;
 }
   
 .sq-sliding-rightToLeft:after {
@@ -76,7 +69,7 @@
     display: inline-block;
     position: relative;
     padding-bottom: 3px;
-    margin-right:100px;
+    margin-right:4.4em;
 }
   
 .sq-sliding-middleOut:after {
@@ -101,7 +94,7 @@
     display: inline-block;
     position: relative;
     padding-bottom: 3px;
-    margin-right:100px;
+    margin-right:4.5em;
 }
   
 .sq-sliding-inAndOnward:before {

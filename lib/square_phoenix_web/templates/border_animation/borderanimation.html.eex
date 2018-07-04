@@ -12,7 +12,7 @@
 <dd><strong>sq-sliding-stayTilHover</strong> - Underline stay til Hovering Over</dd>
 </dl>
 <!--Sliding underline visual-->
-<div class="sq-underline-width">
+<div>
     <h3 class="sq-sliding-topBot">Top to Bot</h3>
     <h3 class="sq-sliding-rightToLeft">Right to Left</h3>
     <h3 class="sq-sliding-leftToRight">Left to Right</h3>
