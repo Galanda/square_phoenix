@@ -9,7 +9,7 @@
           <dt>Classes</dt>
           <dd><strong>.sq-nav-dropdown</strong> The main dropdown container containing the button and dropdwon content div.</dd>
         </dl>
-        <div class="sq-container">
+        <div class="">
             <div class="sq-tabs">
                 <input name="tabs" type="radio" id="tab-1"  checked="checked" class="input">
                 <label for="tab-1" class="label">Personalia</label>
@@ -45,27 +45,3 @@
         <hr>
         <a href="/">home</a>
       </section>
-
-
-
-	  <div class="vu-tabs">
-
-	  	<input name="tabs" type="radio" id="tab-1" checked="checked" class="input"/>
-	  	<label for="tab-1">More moo</label>
-	  	<div class="vu-tab">
-	  		<h1>mooo?</h1>
-	  	</div>
-
-	  	<input name="tabs" type="radio" id="tab-2" class="input"/>
-	  	<label for="tab-2" class="label">Moo</label>
-	  	<div class="vu-tab">
-	  		<h1>mooooooo</h1>
-	  	</div>
-
-	  	<input name="tabs" type="radio" id="tab-3" class="input"/>
-	  	<label for="tab-3" class="label">Zomg moo</label>
-	  	<div class="vu-tab">
-	  		<h1>moooooooooooooo</h1>
-	  	</div>
-
-	  </div>
