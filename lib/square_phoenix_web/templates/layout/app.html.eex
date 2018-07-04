@@ -12,16 +12,16 @@
   </head>
 
   <body class="viewport">
-  <div class="sq-phx-grid-main">
+  <div class="sq-grid-main">
         <!--Navbar need logo-->
-        <div class="sq-phx-grid-navbar sq-background-grey">
+        <div class="sq-grid-navbar sq-background-grey">
 
         </div>
 
         <!--Sidebar for links-->
         <div>
-            <div class="sq-phx-grid-sidebar">
-                <div class="sq-flex-container-middle sq-flex-direction sq-background-lightgrey">
+            <div class="sq-grid-sidebar">
+                <div class="sq-flex-container-middle sq-flex-direction-col sq-background-lightgrey">
 					<a href="./alignitems" class="sq-air-x-1">Align items</a>
 					<a href="./borderanimation" class="sq-air-x-1">Border animation</a>
                     <a href="./chartist" class="sq-air-x-1">Chartist</a>
@@ -47,7 +47,7 @@
         </div>
 
         <!--Middle area add content-->
-        <div class="sq-phx-grid-middle">
+        <div class="sq-grid-middle">
             <div class="sq-flex-container-middle sq-flex-direction sq-air-x-1">
                 <%= render @view_module, @view_template, assigns %>
                 <!--Add something visually if possible-->
@@ -57,7 +57,7 @@
 
         </div>
         <!--Dropdown here-->
-        <div class="sq-phx-grid-dropsite black">
+        <div class="sq-grid-dropsite black">
 
         </div>
     </div>
