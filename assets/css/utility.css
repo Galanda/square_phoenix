@@ -1,49 +1,4 @@
 
-
-/*    Air Start   */
-/* Air Top and bottom ( Y ) */
-.sq-air-y-05{margin: 0.5em 0em 0.5em 0em;}
-.sq-air-y-1{margin: 1em 0em 1em 0em;}
-.sq-air-y-2{margin: 2em 0em 2em 0em;}
-.sq-air-y-3{margin: 3em 0em 3em 0em;}
-.sq-air-y-4{margin: 4em 0em 4em 0em;}
-.sq-air-y-5{margin: 5em 0em 5em 0em;}
-
-/* Air left and right (X) */
-.sq-air-x-05{margin: 0em 0.5em 0em 0.5em;}
-.sq-air-x-1{ margin: 0em 1em 0em 1em;}
-.sq-air-x-2{margin: 0em 2em 0em 2em;}
-.sq-air-x-3{margin: 0em 3em 0em 3em;}
-.sq-air-x-4{margin: 0em 4em 0em 4em;}
-.sq-air-x-5{ margin: 0em 5em 0em 5em;}
-
-
-
-/* Air end */
-/* Margin all sides */
-.sq-margin-05{margin: 0.5em;}
-.sq-margin-1{margin: 1em;}
-.sq-margin-2{margin: 2em;}
-.sq-margin-3{margin: 3em;}
-.sq-margin-4{margin: 4em}
-.sq-margin-5{margin: 5em;}
-
-/* Margin Top Start */
-.sq-mt-05{margin-top: 0.5em;}
-.sq-mt-1{margin-top: 1em;}
-.sq-mt-2{margin-top: 2em;}
-.sq-mt-3{margin-top: 3em;}
-.sq-mt-4{margin-top: 4em;}
-.sq-mt-5{margin-top: 5em;}
-
-/* Margin bottom Start */
-.sq-mb-05{margin-bottom: 0.5em;}
-.sq-mb-1{margin-bottom: 1em;}
-.sq-mb-2{margin-bottom: 2em;}
-.sq-mb-3{margin-bottom: 3em;}
-.sq-mb-4{margin-bottom: 4em;}
-.sq-mb-5{margin-bottom: 5em;}
-
 /*Padding All sides Start*/
 .sq-padding-05{padding: 0.5em;}
 .sq-padding-1{padding: 1em;}
@@ -127,20 +82,6 @@
 /*Misc*/
 .sq-border-collapse {border-collapse:collapse;}
 
-/* Width classes for Forms */
-.sq-width-10p{width: 10%;}
-.sq-width-20p{width: 20%;}
-.sq-width-30p{width: 30%;}
-.sq-width-40p{width: 40%;}
-.sq-width-50p{width: 50%;}
-.sq-width-60p{width: 60%;}
-.sq-width-65p{width: 65%;}
-.sq-width-70p{width: 70%;}
-.sq-width-80p{width: 80%;}
-.sq-width-90p{width: 90%;}
-.sq-width-95p{width: 95%;}
-.sq-width-100p{width: 100%;}
-
 
 
 
@@ -161,8 +102,8 @@
 
 /* Air left and right (X) */
 .sq-air-x-05{margin: 0em 0.5em 0em 0.5em;}
-.sq-air-x-10{margin: 0em 1em 0em 1em;}
-.sq-air-x-15{margin: 0em 1.5em 0em 1.5em;}
+.sq-air-x-100{margin: 0em 1em 0em 1em;}
+.sq-air-x-105{margin: 0em 1.5em 0em 1.5em;}
 .sq-air-x-20{margin: 0em 2em 0em 2em;}
 .sq-air-x-25{margin: 0em 2.5em 0em 2.5em;}
 .sq-air-x-30{margin: 0em 3em 0em 3em;}
@@ -231,5 +172,84 @@
 .sq-air-b-05{margin-bottom: 4.5em;}
 .sq-air-b-5{margin-bottom: 5em;}
 /* overflow */
+
+/* Width classes % */
+.sq-width-10p{width: 10%;}
+.sq-width-15p{width: 15%;}
+.sq-width-20p{width: 20%;}
+.sq-width-25p{width: 25%;}
+.sq-width-30p{width: 30%;}
+.sq-width-35p{width: 35%;}
+.sq-width-40p{width: 40%;}
+.sq-width-45p{width: 45%;}
+.sq-width-50p{width: 50%;}
+.sq-width-55p{width: 55%;}
+.sq-width-60p{width: 60%;}
+.sq-width-65p{width: 65%;}
+.sq-width-70p{width: 70%;}
+.sq-width-75p{width: 75%;}
+.sq-width-80p{width: 80%;}
+.sq-width-85p{width: 85%;}
+.sq-width-90p{width: 90%;}
+.sq-width-95p{width: 95%;}
+.sq-width-100p{width: 100%;}
+
+/* height classes % */
+.sq-height-10p{height: 10%;}
+.sq-height-15p{height: 15%;}
+.sq-height-20p{height: 20%;}
+.sq-height-25p{height: 25%;}
+.sq-height-30p{height: 30%;}
+.sq-height-35p{height: 35%;}
+.sq-height-40p{height: 40%;}
+.sq-height-45p{height: 45%;}
+.sq-height-50p{height: 50%;}
+.sq-height-55p{height: 55%;}
+.sq-height-60p{height: 60%;}
+.sq-height-65p{height: 65%;}
+.sq-height-70p{height: 70%;}
+.sq-height-75p{height: 75%;}
+.sq-height-80p{height: 80%;}
+.sq-height-85p{height: 85%;}
+.sq-height-90p{height: 90%;}
+.sq-height-95p{height: 95%;}
+.sq-height-100p{height: 100%;}
+
+/* Width in em */
+
+.sq-width-10em {width: 1em   ;}
+.sq-width-15em {width: 1.5em ;}
+.sq-width-20em {width: 2em   ;}
+.sq-width-25em {width: 2.5em ;}
+.sq-width-30em {width: 3em   ;}
+.sq-width-35em {width: 3.5em ;}
+.sq-width-40em {width: 4em   ;}
+.sq-width-45em {width: 4.5em ;}
+.sq-width-50em {width: 5em   ;}
+.sq-width-55em {width: 5.5em ;}
+.sq-width-60em {width: 6em   ;}
+.sq-width-65em {width: 6.5em ;}
+.sq-width-70em {width: 7em   ;}
+.sq-width-75em {width: 7.5em ;}
+.sq-width-80em {width: 8em   ;}
+
+/* height in em */
+
+.sq-height-10em {height: 1em   ;}
+.sq-height-15em {height: 1.5em ;}
+.sq-height-20em {height: 2em   ;}
+.sq-height-25em {height: 2.5em ;}
+.sq-height-30em {height: 3em   ;}
+.sq-height-35em {height: 3.5em ;}
+.sq-height-40em {height: 4em   ;}
+.sq-height-45em {height: 4.5em ;}
+.sq-height-50em {height: 5em   ;}
+.sq-height-55em {height: 5.5em ;}
+.sq-height-60em {height: 6em   ;}
+.sq-height-65em {height: 6.5em ;}
+.sq-height-70em {height: 7em   ;}
+.sq-height-75em {height: 7.5em ;}
+.sq-height-80em {height: 8em   ;}
+
 .sq-overflow-hidden{ overflow: hidden;}
 .sq-overflow-scroll{overflow: scroll;}
