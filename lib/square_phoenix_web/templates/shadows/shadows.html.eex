@@ -6,12 +6,12 @@
         </p>
         <dl class="sq-dl sq-dl-divider">
             <dt>Classes</dt>
-            <dd class="sq-shadow-lt sq-margin-2"><strong>sq-shadow-lt</strong> - This is displaying the light class shadow with hover effect.</dd> 
-            <dd class="sq-shadow-lt:hover sq-margin-2"><strong>sq-shadow-lt:hover</strong> - This is the hover class, used on the example above.</dd>
-            <dd class="sq-shadow-sm sq-margin-2"><strong>sq-shadow-sm</strong> - This is displaying the small shadow class.</dd>
-            <dd class="sq-shadow-md sq-margin-2"><strong>sq-shadow-md</strong> - This is displaying the medium shadow class.</dd> 
-            <dd class="sq-shadow-lg sq-margin-2"><strong>sq-shadow-lg</strong> - This is displaying the large shadow class.</dd>
-            <dd class="sq-shadow-xl sq-margin-2"><strong>sq-shadow-xl</strong> - This is displaying the extra large shadow class.</dd>        
+            <dd class="sq-shadow-lt sq-air-20"><strong>sq-shadow-lt</strong> - This is displaying the light class shadow with hover effect.</dd> 
+            <dd class="sq-shadow-lt:hover sq-air-20"><strong>sq-shadow-lt:hover</strong> - This is the hover class, used on the example above.</dd>
+            <dd class="sq-shadow-sm sq-air-20"><strong>sq-shadow-sm</strong> - This is displaying the small shadow class.</dd>
+            <dd class="sq-shadow-md sq-air-20"><strong>sq-shadow-md</strong> - This is displaying the medium shadow class.</dd> 
+            <dd class="sq-shadow-lg sq-air-20"><strong>sq-shadow-lg</strong> - This is displaying the large shadow class.</dd>
+            <dd class="sq-shadow-xl sq-air-20"><strong>sq-shadow-xl</strong> - This is displaying the extra large shadow class.</dd>        
             <pre class="code">
                     <code>
 &ltdiv class="sq-shadow-lt" &gt
