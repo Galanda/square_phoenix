@@ -1,6 +1,6 @@
 <section>
   <h3 id="table">Tables</h3>
-  <p class="air"> Short Info about table, and the css can be found in table.css</p>
+  <p class="air"> Short Info about table, the css can be found in table.css</p>
   <dl class="sq-dl sq-dl-divider">
     <dt>
       <strong>Classes</strong>
