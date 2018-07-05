@@ -21,8 +21,8 @@
                 <div class="sq-flex-container-middle sq-flex-direction-col sq-background-lightgrey">
 					<a href="./alignitems" class="sq-air-x-10">Align items</a>
 					<a href="./borderanimation" class="sq-air-x-10">Border animation</a>
-                    <a href="./chartist" class="sq-air-x-10">Chartist</a>
-                    <a href="./collapsible" class="sq-air-x-10">Collapsible</a>
+          <a href="./chartist" class="sq-air-x-10">Chartist</a>
+          <a href="./collapsible" class="sq-air-x-10">Collapsible</a>
 					<a href="./theme_default" class="sq-air-x-10">Theme_Default</a>
 					<a href="./createuser" class="sq-air-x-10">Create user</a>
 					<a href="./forms" class="sq-air-x-10">Forms</a>
@@ -37,6 +37,7 @@
 					<a href="./typography" class="sq-air-x-10">Typography</a>
 					<a href="./utility" class="sq-air-x-10">Utility</a>
 					<a href="./animation" class="sq-air-x-10">Animation</a>
+					<a href="./tab" class="sq-air-x-10">Tabs</a>
           <a href="./lists" class="sq-air-x-10">Lists</a>
                 </div>
             </div>
