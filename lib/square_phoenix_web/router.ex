@@ -36,6 +36,7 @@ defmodule SquarePhoenixWeb.Router do
   get"/alignitems", AlignitemsController, :index
   get "/borderanimation", BorderAnimationController, :index
   get "/animation", AnimationController, :index
+  get "/lists", ListsController, :index
   end
 
 
