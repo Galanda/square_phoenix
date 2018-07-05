@@ -8,10 +8,10 @@ and content within a collapsible.
 <!-- Regular Collapsible -->
 <button class="sq-collapsible">Collapsible</button>
 <div class="sq-collapsible-content">
-    <p>Text in "p" tag here</p>
-    <button>"button" tag here</button>
-    <div> Text "div" tag here</div>
-    <span>Text "span" tag here</span>
+  <p>Text in "p" tag here</p>
+  <button>"button" tag here</button>
+  <div> Text "div" tag here</div>
+  <span>Text "span" tag here</span>
 </div> <br>
 <!-- Collapsible Colored -->
 <button Class="sq-collapsible" style="background-color:orangered">
