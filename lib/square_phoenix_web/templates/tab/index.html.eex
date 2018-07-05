@@ -10,27 +10,27 @@
           <dd><strong>.sq-nav-dropdown</strong> The main dropdown container containing the button and dropdwon content div.</dd>
         </dl>
         <div class="sq-panel">
-            <div class="sq-tabs">
-                <input name="tabs" type="radio" id="tab-1"  checked="checked" class="input">
-                <label for="tab-1" class="label">Personalia</label>
-                <div class="sq-tab">
-						<h1>Tab1</h1>
-                </div>
-            </div>
-            <div class="sq-tabs ">
-               <input name="tabs" type="radio" id="tab-2" class="input">
-                <label for="tab-2" class="label">Address</label>
-                <div class="sq-tab">
-						<h1>Tab2</h1>
-                </div>
-            </div>
-            <div class="sq-tabs">
-               <input name="tabs" type="radio" id="tab-3" class="input">
-                <label for="tab-3" class="label">Email/Password</label>
-                <div class="sq-tab">
-						   <h1>Tab3</h1>
-                </div>
-            </div>
+			<div class="sq-tabs">
+
+	<input name="tabs" type="radio" id="tab-1" checked="checked" class="input"/>
+	<label for="tab-1">More moo</label>
+	<div class="sq-tab">
+		<h1>mooo?</h1>
+	</div>
+
+	<input name="tabs" type="radio" id="tab-2" class="input"/>
+	<label for="tab-2" class="label">Moo</label>
+	<div class="sq-tab">
+		<h1>mooooooo</h1>
+	</div>
+
+	<input name="tabs" type="radio" id="tab-3" class="input"/>
+	<label for="tab-3" class="label">Zomg moo</label>
+	<div class="sq-tab">
+		<h1>moooooooooooooo</h1>
+	</div>
+
+</div>
         </div>
         <pre class="code">
           <code>
