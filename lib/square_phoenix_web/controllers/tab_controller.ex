@@ -1,4 +1,4 @@
-defmodule SquarePhoenixWeb.TabsController do
+defmodule SquarePhoenixWeb.TabController do
   use SquarePhoenixWeb, :controller
 
   def index(conn, _params) do
