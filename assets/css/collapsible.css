@@ -1,22 +1,25 @@
+/*CSS classes for collapsible*/
+/*Collapsible styling - before pushing*/
 .sq-collapsible {
     height: 2em;
     cursor: pointer;
     width: 100%;
     border: none;
-    text-align: left;
+    text-align: left; /*#*/
     outline: none;
     transition: 0.4s;
     font-size: 1em;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
 }
+/*The + icon before clicking the collapsible*/
 .sq-collapsible:after {
     content:'\002B' ;
     float: right;
     margin-left: .4em;
 }
-.sq-collapsible:hover{
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}
+/*Shadow when hovering over collapsible*/
+.sq-collapsible:hover{box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);}
+/*Content within the collapsible*/
 .sq-collapsible-content {
     background-color: var(--background);
     max-height: 0;
@@ -25,10 +28,7 @@
     padding-left: 1em;
     padding-right: 1em;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
-
+    /* display:none; */
 }
-.sq-collapsed:after {
-    content: '\2212';
-
-}
-
+/*The minus icon once collapsible is open*/
+.sq-collapsed:after {content: '\2212';}
