@@ -1,0 +1,87 @@
+<section>
+      <h3 id="lists">List styleing</h3>
+      <p>
+        Different types of styles to edit the dd,li,dt tags.<br>
+        For example removeing list style or adding dividers to the list items.<br>
+        Under you see an example on how i uses the css classes and set it up in the html.
+      </p>
+
+      <dl class="sq-dl sq-dl-divider" >
+        <dt>Classes</dt>
+        <dd><strong>.sq-list</strong> Removeing padding and list style to the list.</dd>
+        <dd><strong>.sq-list-hover li:hover</strong> Adding an on hover effect to the list items</dd>
+        <dd><strong>.sq-dl-divider dd:not</strong> Adding a divider to the dd list items except from the last dd.</dd>
+        <dd><strong>.sq-list-divider li:not</strong> Adding a divider to the li list items except from the last li.</dd>
+        <dd><strong>.sq-list-sm li</strong> Adding 0.3em padding to the list items.</dd>
+        <dd><strong>.sq-list-md li</strong> Adding 1em padding to the list items.</dd>
+        <dd><strong>.sq-list-lg li</strong> Adding 2em padding to the list items.</dd>
+        <dd><strong>.sq-dl dt</strong> Transforms dt into uppercase and adding more weight to the font, creating sort of a headline in the list.</dd>
+        <dd><strong>.sq-dl dd</strong> Adding padding to the dd.</dd>
+      </dl>
+<h5>Removeing list style with sq-list</h5>
+<ul class="sq-list">
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
+<h5>Adding 1em padding with sq-list-md</h5>
+<ul class="sq-list-md">
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
+<h5>Adding divider to the list items with sq-list-divider</h5>
+<ul class="sq-list-divider">
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+  <li>Item 4</li>
+  <li>Item 5</li>
+  <li>Item 6</li>
+</ul>
+<h5>Adding a headline effect and divider with sq-dl and sq-dl-divider</h5>
+<dl class="sq-dl sq-dl-divider">
+  <dt>Header 1</dt>
+    <dd>Item 1</dd>
+    <dd>Item 2</dd>
+  <dt>Header 2</dt>
+    <dd>Item 1</dd>
+    <dd>Item 2</dd>
+</dl>
+
+<pre class="sq-code">
+  <code>
+    &ltul class="sq-list"&gt
+      &ltli&gtItem 1&lt/li&gt
+      &ltli&gtItem 2&lt/li&gt
+      &ltli&gtItem 3&lt/li&gt
+    &lt/ul&gt
+
+    &ltul class="sq-list-md"&gt
+      &ltli&gtItem 1&lt/li&gt
+      &ltli&gtItem 2&lt/li&gt
+      &ltli&gtItem 3&lt/li&gt
+    &lt/ul&gt
+
+    &ltul class="sq-list-divider"&gt
+      &ltli&gtItem 1&lt/li&gt
+      &ltli&gtItem 2&lt/li&gt
+      &ltli&gtItem 3&lt/li&gt
+      &ltli&gtItem 4&lt/li&gt
+      &ltli&gtItem 5&lt/li&gt
+      &ltli&gtItem 6&lt/li&gt
+    &lt/ul&gt
+
+    &ltdl class="sq-dl sq-dl-divider"&gt
+      &ltdt&gtHeader 1&lt/dt&gt
+        &ltdd&gtItem 1&lt/dd&gt
+        &ltdd&gtItem 2&lt/dd&gt
+      &ltdt&gtHeader 2&lt/dt&gt
+        &ltdd&gtItem 1&lt/dd&gt
+        &ltdd&gtItem 2&lt/dd&gt
+    &lt/dl&gt
+  </code>
+</pre>
+<hr class="air" />
+<a href="#top">Top</a>
+</section>
