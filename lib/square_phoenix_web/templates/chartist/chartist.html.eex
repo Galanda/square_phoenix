@@ -14,12 +14,12 @@
     <dd><strong>Line-charts</strong> - Charts that displays a line</dd>
 	<div class="sq-success" id="chart1">
     </div>
-<pre class="code air">
-<code>
+<pre class="sq-code air">
+<sq-code>
 &ltdiv class="sq-success" id="chart1"&gt
 &lt/div&gt
 </pre>
-<pre class="code">
+<pre class="sq-code">
 &ltscript&gt
     var data1 = {
     labels: ['jan', 'Feb', 'Apr', 'Mar', 'May'],
@@ -31,17 +31,17 @@
     };
     new Chartist.Line('#chart1', data1);
 &lt/script&gt
-</code>
+</sq-code>
 </pre>
 <dd><strong>Pie-chart</strong> - A chart that is formed like a circle</dd>
 <div id="chart2">
 </div>
-<pre class="code air">
-<code>
+<pre class="sq-code air">
+<sq-code>
 &ltdiv id="chart2"&gt
 &lt/div&gt
 </pre>
-<pre class="code">
+<pre class="sq-code">
 &ltscript&gt
     var  data2 = {
     series: [5, 3, 4, 10, 5, 4, 3]
@@ -53,17 +53,17 @@
     }
     });
 &lt/script&gt
-</code>
+</sq-code>
 </pre>
 <dd><strong>Bars-chart</strong> - A chart that displays vertical bars </dd>
 <div class="sq-success" id="chart3">
 </div>
-<pre class="code air">
-<code>
+<pre class="sq-code air">
+<sq-code>
 &ltdiv class="success" id="chart3"&gt
 &lt/div&gt
 </pre>
-<pre class="code">
+<pre class="sq-code">
 &ltscript&gt
     new Chartist.Bar('#chart3', {
     labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
@@ -80,7 +80,7 @@
     }
     });
 &lt/script&gt
-</code>
+</sq-code>
 </pre>
 	</div>
 	<!-- <hr class="air" /> -->

@@ -1,7 +1,7 @@
 <!--Align Items Start-->
     <section>
         <h3>Align Items</h3>
-        <p class="air"> Short Info om Align Items</p>
+        <p class="air"> Short Info about Align Items, these classes can be found in Layout.css</p>
         <dl class="sq-dl sq-dl-divider">
             <dt>Classes</dt>
             <dd><strong>sq-align-center</strong> - Vertically position element to the center</dd>
@@ -17,12 +17,12 @@
                 <div class="sq-aligning-box"></div>
             </div>
         </div>
-        <pre class="code">
-            <code>
+        <pre class="sq-code">
+            <sq-code>
                 &ltdiv class="sq-align-center" &gt
                     ...add content/text+++...
                 &lt/div&gt
-            </code>
+            </sq-code>
         </pre>
         <div>
             <a href="https://codepen.io/bjornum/pen/YLVodK?editors=1100">Interactive Demo</a>

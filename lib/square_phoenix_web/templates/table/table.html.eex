@@ -35,13 +35,13 @@
             </table>
           <div class="sq-custom-footer sq-border-1 sq-mt-2 sq-background-black"></div>
         </div>
-        <!--code field-->
-        <pre class="code">
-            <code>
+        <!--sq-code field-->
+        <pre class="sq-code">
+            <sq-code>
         &ltdiv class="sq-table-striped sq-table-hover sq-table-border-bottom" &gt
                     ...add content/text+++...
         &lt/div&gt
-            </code>
+            </sq-code>
         </pre>
         <!--link to codepen-->
         <a href="https://codepen.io/bjornum/pen/deJJpe">Interactive Demo</a>

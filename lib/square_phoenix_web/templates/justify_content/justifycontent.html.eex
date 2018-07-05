@@ -1,6 +1,6 @@
 <section>
         <h3>Justify Content</h3>
-        <p class="air"> Position Elements Horizontal <-- . --></p>
+        <p class="air"> Position Elements Horizontal <-- . -->. These classes can be found in Layout.css</p>
         <dl class="sq-dl sq-dl-divider">
             <dt>Classes</dt>
             <dd><strong>sq-justify-center</strong> - Horisontaly Position element to the center</dd>
@@ -8,6 +8,7 @@
             <dd><strong>sq-justify-end</strong> - Position to the end of the container</dd>
             <dd><strong>sq-justify-between</strong> - Have space between the elements</dd>
             <dd><strong>sq-justify-around</strong> - Have space before, between and after the elements</dd>
+            <dd><strong>sq-justify-evenly</strong> - Distribute items evenly, Items have equal space around them</dd>
         </dl>
         <div class="air">
             <div class="sq-aligning-container sq-justify-center sq-justify-around">
@@ -16,12 +17,12 @@
                 <div class="sq-aligning-box"></div>
             </div>
         </div>
-        <pre class="code">
-            <code>
+        <pre class="sq-code">
+            <sq-code>
                 &ltdiv class="sq-justify-center sq-justify-around" &gt
                     ...add content/text+++...
                 &lt/div&gt
-            </code>
+            </sq-code>
         </pre>
         <div>
             <a href="https://codepen.io/bjornum/pen/KRmeVO?editors=1100">Interactive Demo</a>

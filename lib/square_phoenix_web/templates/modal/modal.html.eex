@@ -17,12 +17,12 @@
 <dd><strong>sq-tabs-input</strong> - Adds a radio class to the tabs and styles them</dd>
 </dl>
 <!-- Code -->
-<pre class="code">
-<code>
+<pre class="sq-code">
+<sq-code>
 &ltdiv class="sq-modal-content"/"sq-tabs" &gt
     ...add content/text+++...
 &lt/div&gt
-</code>
+</sq-code>
 </pre>
 <!-- Demo -->
 <div>
