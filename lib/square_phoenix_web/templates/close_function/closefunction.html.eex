@@ -1,0 +1,32 @@
+<section>
+<h3>closeFunction</h3>
+<p>closeFunction contains classes that adds closing buttons and backgrounds to modal windows.</p>
+
+  <p>Found in closeFunction.css </p>
+  <b>sq-button adds a button for use in modal windows</b>
+  <br>
+  <b>sq-close adds red highlighting to a part of the button, allowing you to add a close modal function to it</b>
+<button class="sq-button">
+<div class="sq-close">
+<p>x</p>
+</div>
+</button>
+<br>
+<!-- Collapsible Colored -->
+
+<!-- Collapsible Code -->
+<pre class="sq-code">
+<sq-code>
+&ltbutton class="sq-button"&gt
+&ltdiv&gt
+    &ltp Text in "p" tag here &gt&ltp
+    &ltbutton&gt"button" here&lt/button&gt
+    &ltdiv&gt Text in "div" tag here&ltdiv&gt
+    &ltspan&gt Text in "span" tag here&ltspan&gt
+&ltdiv&gt
+&lt/button&gt
+</sq-code>
+</pre>
+</dl>
+<a href="https://codepen.io/Laeron/pen/vrwdbL">Interactive Demo</a>
+</section>
